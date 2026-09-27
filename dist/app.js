@@ -5,7 +5,7 @@ const storageKey='anime-review:selected:v1';
 let items=[],selected=new Set(),year='all',quarter='all',limit=40,posterUrls=[],generating=false;
 const el=(tag,className,text)=>{const e=document.createElement(tag);if(className)e.className=className;if(text!==undefined)e.textContent=text;return e;};
 function safeRead(key){try{return localStorage.getItem(key)}catch{return null}}
-function save(){try{localStorage.setItem(storageKey,JSON.stringify([...selected]));localStorage.setItem('anime-review:nickname',$('#nickname').value);$('#save-status').textContent='已自动保存，下次打开继续。'}catch{$('#save-status').textContent='浏览器未允许保存，请在离开前下载清单。'}}
+function save(){try{localStorage.setItem(storageKey,JSON.stringify([...selected]));localStorage.setItem('anime-review:nickname',$('#nickname').value);$('#save-status').textContent='已保存至此浏览器。'}catch{$('#save-status').textContent='浏览器未允许保存，请在离开前下载清单。'}}
 function coverImage(a){const img=el('img');img.src=a.cover;img.alt=a.title;img.loading='lazy';img.decoding='async';img.addEventListener('error',()=>img.replaceWith(el('span','fallback',a.title)),{once:true});return img;}
 function toggle(id){const activeId=document.activeElement?.dataset.id;selected.has(id)?selected.delete(id):selected.add(id);save();render();renderCollection();if(activeId)($(`[data-id="${activeId}"]`)||$('#selected-only')).focus({preventScroll:true});}
 function renderCollection(){
@@ -13,7 +13,7 @@ function renderCollection(){
   $('#generate').disabled=!selected.size;$('#mobile-generate').disabled=!selected.size;
   const mini=$('#mini-covers');mini.replaceChildren();
   const chosen=items.filter(a=>selected.has(a.id));
-  if(!chosen.length){const e=el('div','collection-empty','点击封面，把看过的故事收藏在这里');mini.append(e);return;}
+  if(!chosen.length){const e=el('div','collection-empty','点击封面选择动画');mini.append(e);return;}
   chosen.slice(0,7).forEach(a=>{const b=el('button');b.title=`移除《${a.title}》`;b.setAttribute('aria-label',b.title);b.append(a.cover?coverImage(a):el('span','',a.title));b.onclick=()=>toggle(a.id);mini.append(b)});
   if(chosen.length>7){const b=el('button','',`+${chosen.length-7}`);b.setAttribute('aria-label','查看所有已选动画');b.onclick=()=>{$('#selected-only').checked=true;year='all';quarter='all';$('#search').value='';$('#type').value='all';limit=40;render();$('#catalog-title').scrollIntoView({behavior:'smooth',block:'start'})};mini.append(b)}
 }
@@ -32,7 +32,7 @@ function render(){
     b.append(cover,el('span','anime-title',a.title),meta);b.onclick=()=>toggle(a.id);fragment.append(b);
   });grid.replaceChildren(fragment);
   $('#catalog-status').hidden=!!filtered.length;$('#catalog-status').textContent=$('#selected-only').checked?'这里还没有符合条件的已选动画。试试切换年份或清除搜索。':'没有找到符合条件的动画，试试其他名字或筛选条件。';
-  $('#load-more').hidden=limit>=filtered.length;$('#load-more').textContent=`继续翻翻 · 还有 ${Math.max(0,filtered.length-limit)} 部 ↓`;
+  $('#load-more').hidden=limit>=filtered.length;$('#load-more').textContent=`加载更多 · 剩余 ${Math.max(0,filtered.length-limit)} 部 ↓`;
 }
 async function load(){
   try{
@@ -53,7 +53,7 @@ async function generate(){
   posterUrls.forEach(u=>URL.revokeObjectURL(u));posterUrls=[];
   try{
     await Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,4000))]);
-    const blobs=await renderPosters(items.filter(a=>selected.has(a.id)),$('#nickname').value,(p,total)=>$('#poster-status').textContent=`正在装订回忆 ${p} / ${total}…`);
+    const blobs=await renderPosters(items.filter(a=>selected.has(a.id)),$('#nickname').value,(p,total)=>$('#poster-status').textContent=`正在生成图片 ${p} / ${total}…`);
     blobs.forEach((blob,i)=>{const url=URL.createObjectURL(blob);posterUrls.push(url);const img=el('img');img.src=url;img.alt=`动画观看清单，第 ${i+1} 张`;$('#poster-preview').append(img);const a=el('a','download',blobs.length===1?'下载高清图片 ↓':`下载第 ${i+1} 张 ↓`);a.href=url;a.download=`番迹-动画观看清单-${i+1}.png`;$('#download-links').append(a)});
     $('#poster-status').textContent=blobs.length>1?`共 ${selected.size} 部，已拆分为 ${blobs.length} 张高清图片。手机也可以长按图片保存。`:'清单已生成。下载高清 PNG，或在手机上长按图片保存。';
   }catch(e){$('#poster-status').textContent=`生成失败：${e.message}。请返回后重试。`;}

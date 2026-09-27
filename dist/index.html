@@ -2,24 +2,24 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f9fafb"><meta name="description" content="翻翻近年的动画，拾起看过的故事。勾选你的观看清单，生成一张专属分享海报。">
-  <title>番迹 · 我的动画回忆</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#f9fafb"><meta name="description" content="选择看过的动画，生成观看清单图片。">
+  <title>番迹 · 动画观看清单</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header"><a class="brand" href="./"><span class="brand-icon">番</span><strong>番迹</strong><span class="brand-en">ANIME REVIEW</span></a><span class="header-note">每一部，都有你的回忆。</span><span class="private-note">仅保存在此设备</span></header>
+  <header class="header"><a class="brand" href="./"><span class="brand-icon">番</span><strong>番迹</strong></a><span class="private-note">仅保存在此设备</span></header>
   <main>
-    <section class="intro"><div><div class="eyebrow">YOUR PERSONAL ANIME ARCHIVE</div><h1>这些故事，<span>你看过几部？</span></h1><p>翻翻近年的动画，勾选看过的作品，把回忆装进一张图。</p></div><div class="steps"><span class="step active"><b>01</b> 拾起回忆</span><i></i><span class="step"><b>02</b> 生成清单</span><i></i><span class="step"><b>03</b> 分享热爱</span></div></section>
+    <section class="intro"><div><h1>动画观看清单</h1><p>勾选看过的动画，生成清单图片。</p></div></section>
     <div class="workspace">
       <section class="catalog" aria-label="动画目录">
         <div class="filters"><div class="filter-top"><div class="years" id="years" aria-label="按年份筛选"></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索中文名 / 原名" aria-label="搜索动画名称"></label></div><div class="filter-bottom"><div class="quarters" id="quarters" aria-label="按季度筛选"><button data-quarter="all" class="active">全部季度</button><button data-quarter="1">冬季 <small>1月</small></button><button data-quarter="2">春季 <small>4月</small></button><button data-quarter="3">夏季 <small>7月</small></button><button data-quarter="4">秋季 <small>10月</small></button></div><label class="type-label"><select id="type" aria-label="动画类型"><option value="all">全部类型</option><option>TV</option><option>WEB</option><option>剧场版</option><option>OVA</option></select></label></div></div>
-        <div class="catalog-heading"><div><h2 id="catalog-title">动画时光册</h2><span id="result-count">正在整理动画目录…</span></div><label class="selected-toggle"><input id="selected-only" type="checkbox"> 只看已选</label></div>
-        <div id="catalog-status" role="status" class="empty">正在加载你的动画时光册…</div><div id="grid" class="grid"></div><button id="load-more" class="load-more" hidden>继续翻翻 ↓</button>
+        <div class="catalog-heading"><div><h2 id="catalog-title">动画目录</h2><span id="result-count">正在加载动画目录…</span></div><label class="selected-toggle"><input id="selected-only" type="checkbox"> 只看已选</label></div>
+        <div id="catalog-status" role="status" class="empty">正在加载动画目录…</div><div id="grid" class="grid"></div><button id="load-more" class="load-more" hidden>加载更多 ↓</button>
         <footer class="catalog-footer"><span>资料来源 <a href="https://bgm.tv" target="_blank" rel="noreferrer">Bangumi 番组计划 ↗</a></span><span id="updated"></span><p>按作品首播时间收录；封面版权归原权利人所有。</p></footer>
       </section>
-      <aside class="collection"><div class="collection-top"><span class="eyebrow">MY COLLECTION</span><span class="bookmark" aria-hidden="true">▥</span><h2>我的观看清单</h2><p>那些陪你度过的好时光</p></div><div class="collection-count"><strong id="count">0</strong><span>部动画，值得记住</span></div><div id="mini-covers" class="mini-covers"><div class="collection-empty">点击左侧封面<br>把看过的故事收藏在这里</div></div><div class="collection-actions"><label for="nickname">海报上的名字 <span>选填</span></label><input id="nickname" maxlength="20" placeholder="你的昵称"><button id="generate" class="primary" disabled>生成我的动画清单 <span>↗</span></button><p id="save-status" role="status">选择会自动保存，下次继续。</p></div><div class="tip"><span>✦</span><p>不需要记得所有名字。<br>熟悉的封面，会帮你想起来。</p></div></aside>
+      <aside class="collection"><div class="collection-top"><h2>我的观看清单</h2></div><div class="collection-count"><strong id="count">0</strong><span>部已选动画</span></div><div id="mini-covers" class="mini-covers"><div class="collection-empty">点击封面选择动画</div></div><div class="collection-actions"><label for="nickname">海报上的名字 <span>选填</span></label><input id="nickname" maxlength="20" placeholder="你的昵称"><button id="generate" class="primary" disabled>生成我的动画清单 <span>↗</span></button><p id="save-status" role="status">选择自动保存至此浏览器。</p></div></aside>
     </div>
   </main>
   <div class="mobile-bar"><span>已选 <b id="mobile-count">0</b> 部</span><button id="mobile-generate" class="primary" disabled>生成清单 ↗</button></div>
-  <dialog id="poster-dialog"><div class="dialog-header"><div><span class="eyebrow">MADE OF MEMORIES</span><h2>你的动画回忆，已装订。</h2></div><button id="close-dialog" class="icon-button" aria-label="关闭预览">×</button></div><p class="dialog-copy" id="poster-status" role="status">正在生成海报…</p><div id="poster-preview"></div><div class="dialog-footer"><button id="back" class="secondary">返回调整</button><div id="download-links"></div></div></dialog>
+  <dialog id="poster-dialog"><div class="dialog-header"><div><h2>清单图片预览</h2></div><button id="close-dialog" class="icon-button" aria-label="关闭预览">×</button></div><p class="dialog-copy" id="poster-status" role="status">正在生成海报…</p><div id="poster-preview"></div><div class="dialog-footer"><button id="back" class="secondary">返回调整</button><div id="download-links"></div></div></dialog>
   <script type="module" src="app.js"></script>
 </body></html>
