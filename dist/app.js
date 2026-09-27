@@ -1,8 +1,9 @@
-import {filterItems,restoreSelection} from './catalog.js';
+import {filterItems,sortItems,restoreSelection} from './catalog.js';
 import {renderPosters} from './poster.js';
 const $=s=>document.querySelector(s);
 const storageKey='anime-review:selected:v1';
 let items=[],selected=new Set(),year='all',quarter='all',limit=40,posterUrls=[],generating=false;
+let clearedSelection=null;
 const el=(tag,className,text)=>{const e=document.createElement(tag);if(className)e.className=className;if(text!==undefined)e.textContent=text;return e;};
 function safeRead(key){try{return localStorage.getItem(key)}catch{return null}}
 function save(){try{localStorage.setItem(storageKey,JSON.stringify([...selected]));localStorage.setItem('anime-review:nickname',$('#nickname').value);$('#save-status').textContent='已保存至此浏览器。'}catch{$('#save-status').textContent='浏览器未允许保存，请在离开前下载清单。'}}
@@ -15,12 +16,33 @@ function renderCollection(){
   const chosen=items.filter(a=>selected.has(a.id));
   if(!chosen.length){const e=el('div','collection-empty','点击封面选择动画');mini.append(e);return;}
   chosen.slice(0,7).forEach(a=>{const b=el('button');b.title=`移除《${a.title}》`;b.setAttribute('aria-label',b.title);b.append(a.cover?coverImage(a):el('span','',a.title));b.onclick=()=>toggle(a.id);mini.append(b)});
-  if(chosen.length>7){const b=el('button','',`+${chosen.length-7}`);b.setAttribute('aria-label','查看所有已选动画');b.onclick=()=>{$('#selected-only').checked=true;year='all';quarter='all';$('#search').value='';$('#type').value='all';limit=40;render();$('#catalog-title').scrollIntoView({behavior:'smooth',block:'start'})};mini.append(b)}
+  if(chosen.length>7){const b=el('button','',`+${chosen.length-7}`);b.setAttribute('aria-label','编辑所有已选动画');b.onclick=openEditor;mini.append(b)}
 }
+function renderEditor(){
+  const chosen=items.filter(a=>selected.has(a.id));
+  $('#editor-count').textContent=`共 ${chosen.length} 部 · 点击封面移除，修改自动保存`;
+  $('#clear-selection').disabled=!chosen.length;
+  $('#undo-clear').hidden=!clearedSelection;
+  $('#editor-empty').hidden=!!chosen.length;
+  const fragment=document.createDocumentFragment();
+  chosen.forEach((a,index)=>{
+    const b=el('button','anime-card editor-card');b.setAttribute('aria-label',`移除《${a.title}》`);
+    const cover=el('div','cover');cover.append(a.cover?coverImage(a):el('span','fallback',a.title),el('span','remove-badge','移除 ×'));
+    b.append(cover,el('span','anime-title',a.title));
+    b.onclick=()=>{
+      selected.delete(a.id);save();render();renderCollection();renderEditor();
+      const buttons=$('#editor-grid').querySelectorAll('button');
+      (buttons[Math.min(index,buttons.length-1)]||$('#close-editor')).focus({preventScroll:true});
+    };
+    fragment.append(b);
+  });
+  $('#editor-grid').replaceChildren(fragment);
+}
+function openEditor(){renderEditor();$('#collection-dialog').showModal();}
 function render(){
   document.querySelectorAll('[data-year]').forEach(b=>{const active=b.dataset.year===year;b.classList.toggle('active',active);b.setAttribute('aria-pressed',active)});
   document.querySelectorAll('[data-quarter]').forEach(b=>{const active=b.dataset.quarter===quarter;b.classList.toggle('active',active);b.setAttribute('aria-pressed',active)});
-  const filtered=filterItems(items,{year,quarter,type:$('#type').value,query:$('#search').value,selectedOnly:$('#selected-only').checked,selected});
+  const filtered=sortItems(filterItems(items,{year,quarter,type:$('#type').value,query:$('#search').value,selectedOnly:$('#selected-only').checked,selected}),$('#sort').value);
   const seasons=['','冬季','春季','夏季','秋季'];
   $('#catalog-title').textContent=$('#selected-only').checked?'我的观看清单':`${year==='all'?'近三年':year+' 年'}${quarter==='all'?'动画':seasons[quarter]+'动画'}`;
   $('#result-count').textContent=`共 ${filtered.length} 部`;
@@ -45,7 +67,17 @@ async function load(){
   }catch{$('#catalog-status').hidden=false;$('#catalog-status').replaceChildren(el('p','','动画目录暂时无法加载，请检查网络后重试。'));const retry=el('button','','重新加载');retry.onclick=load;$('#catalog-status').append(retry);}
 }
 document.querySelectorAll('[data-quarter]').forEach(b=>b.onclick=()=>{quarter=b.dataset.quarter;limit=40;render()});
-['#search','#type','#selected-only'].forEach(s=>$(s).addEventListener(s==='#search'?'input':'change',()=>{limit=40;render()}));
+['#search','#type','#sort','#selected-only'].forEach(s=>$(s).addEventListener(s==='#search'?'input':'change',()=>{limit=40;render()}));
+$('#edit-collection').onclick=openEditor;
+$('#close-editor').onclick=()=>$('#collection-dialog').close();
+$('#done-editing').onclick=()=>$('#collection-dialog').close();
+$('#clear-selection').onclick=()=>{
+  clearedSelection=new Set(selected);selected.clear();save();render();renderCollection();renderEditor();$('#undo-clear').focus();
+};
+$('#undo-clear').onclick=()=>{
+  if(!clearedSelection)return;
+  clearedSelection.forEach(id=>selected.add(id));clearedSelection=null;save();render();renderCollection();renderEditor();$('#clear-selection').focus();
+};
 $('#load-more').onclick=()=>{limit+=40;render()};$('#nickname').oninput=save;
 async function generate(){
   if(generating||!selected.size)return;
