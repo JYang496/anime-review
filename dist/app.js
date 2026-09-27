@@ -9,8 +9,8 @@ function save(){try{localStorage.setItem(storageKey,JSON.stringify([...selected]
 function coverImage(a){const img=el('img');img.src=a.cover;img.alt=a.title;img.loading='lazy';img.decoding='async';img.addEventListener('error',()=>img.replaceWith(el('span','fallback',a.title)),{once:true});return img;}
 function toggle(id){const activeId=document.activeElement?.dataset.id;selected.has(id)?selected.delete(id):selected.add(id);save();render();renderCollection();if(activeId)($(`[data-id="${activeId}"]`)||$('#selected-only')).focus({preventScroll:true});}
 function renderCollection(){
-  $('#count').textContent=selected.size;$('#mobile-count').textContent=selected.size;
-  $('#generate').disabled=!selected.size;$('#mobile-generate').disabled=!selected.size;
+  $('#count').textContent=selected.size;
+  $('#generate').disabled=!selected.size;
   const mini=$('#mini-covers');mini.replaceChildren();
   const chosen=items.filter(a=>selected.has(a.id));
   if(!chosen.length){const e=el('div','collection-empty','点击封面选择动画');mini.append(e);return;}
@@ -59,6 +59,13 @@ async function generate(){
   }catch(e){$('#poster-status').textContent=`生成失败：${e.message}。请返回后重试。`;}
   finally{generating=false;}
 }
-$('#generate').onclick=generate;$('#mobile-generate').onclick=generate;
+$('#generate').onclick=generate;
 $('#close-dialog').onclick=()=>$('#poster-dialog').close();$('#back').onclick=()=>$('#poster-dialog').close();
+// Reserve the actual fixed-bar heights, including wrapped controls and font changes.
+const fixedBars=new ResizeObserver(()=>{
+  document.documentElement.style.setProperty('--filter-height',document.querySelector('.filters').getBoundingClientRect().height+'px');
+  document.documentElement.style.setProperty('--collection-height',document.querySelector('.collection').getBoundingClientRect().height+'px');
+});
+fixedBars.observe(document.querySelector('.filters'));
+fixedBars.observe(document.querySelector('.collection'));
 await load();

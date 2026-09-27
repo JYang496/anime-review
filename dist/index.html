@@ -6,7 +6,7 @@
   <title>番迹 · 动画观看清单</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header"><a class="brand" href="./"><span class="brand-icon">番</span><strong>番迹</strong></a><span class="private-note">仅保存在此设备</span></header>
+  <header class="header"><a class="brand" href="./"><span class="brand-icon">番</span><strong>番迹</strong></a></header>
   <main>
     <section class="intro"><div><h1>动画观看清单</h1><p>勾选看过的动画，生成清单图片。</p></div></section>
     <div class="workspace">
@@ -21,7 +21,6 @@
       </div>
     </div>
   </main>
-  <div class="mobile-bar"><span>已选 <b id="mobile-count">0</b> 部</span><button id="mobile-generate" class="primary" disabled>生成清单 ↗</button></div>
   <dialog id="poster-dialog"><div class="dialog-header"><div><h2>清单图片预览</h2></div><button id="close-dialog" class="icon-button" aria-label="关闭预览">×</button></div><p class="dialog-copy" id="poster-status" role="status">正在生成海报…</p><div id="poster-preview"></div><div class="dialog-footer"><button id="back" class="secondary">返回调整</button><div id="download-links"></div></div></dialog>
   <script type="module" src="app.js"></script>
 </body></html>
