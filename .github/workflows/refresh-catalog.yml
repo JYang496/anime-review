@@ -1,0 +1,30 @@
+name: Refresh anime catalogue
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 5 * * 1'
+permissions:
+  contents: write
+concurrency:
+  group: refresh-catalog
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run sync
+      - run: npm run check
+      - name: Commit catalogue updates
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist/data/catalog.json dist/covers
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh anime catalogue"
+            git push
+          fi
