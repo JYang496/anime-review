@@ -26,36 +26,49 @@ export async function renderPosters(items,nickname,onProgress=()=>{}) {
   for(let p=0;p<pages.length;p++) {
     onProgress(p+1,pages.length);
     const page=pages[p];const groups=[...new Set(page.map(a=>a.year))].map(year=>({year,items:page.filter(a=>a.year===year)}));
-    const height=300+groups.reduce((h,g)=>h+80+Math.ceil(g.items.length/5)*320,0)+100;
-    const canvas=document.createElement('canvas');canvas.width=1200;canvas.height=height;
+    const columns=Math.min(6,Math.max(...groups.map(g=>g.items.length)));
+    const padding=32,gap=12;
+    const width=Math.max(480,padding*2+columns*179+(columns-1)*gap);
+    const coverWidth=(width-padding*2-(columns-1)*gap)/columns;
+    const coverHeight=Math.round(coverWidth*1.25),rowHeight=coverHeight+58;
+    const headerHeight=178,groupHeading=42,footerHeight=60;
+    const height=headerHeight+groups.reduce((h,g)=>h+groupHeading+Math.ceil(g.items.length/columns)*rowHeight,0)+footerHeight;
+    const canvas=document.createElement('canvas');canvas.width=width;canvas.height=height;
     const ctx=canvas.getContext('2d');
     if(!ctx)throw new Error('当前浏览器不支持图片生成');
-    ctx.fillStyle='#f5f6fb';ctx.fillRect(0,0,1200,height);
-    ctx.fillStyle='#425ce8';ctx.fillRect(0,0,1200,12);
-    ctx.font='bold 20px "Noto Sans SC", sans-serif';ctx.fillText('番迹  /  ANIME REVIEW',60,75);
-    ctx.fillStyle='#222632';ctx.font='bold 48px "Noto Sans SC", sans-serif';
-    wrap(ctx,`${nickname.trim()||'我'}的动画观看清单`,60,155,1080,55,2);
-    ctx.fillStyle='#747e93';ctx.font='23px "Noto Sans SC", sans-serif';ctx.fillText(`收录 ${range} 年播出的作品  ·  共 ${items.length} 部`,60,257);
-    let y=300;
+    ctx.fillStyle='#f5f6fb';ctx.fillRect(0,0,width,height);
+    ctx.fillStyle='#425ce8';ctx.fillRect(0,0,width,6);
+    ctx.font='bold 16px "Noto Sans SC", sans-serif';ctx.fillText('番迹  /  ANIME REVIEW',padding,38);
+    const title=`${nickname.trim()||'我'}的动画观看清单`;
+    let titleSize=36;
+    do {ctx.font=`bold ${titleSize}px "Noto Sans SC", sans-serif`;if(ctx.measureText(title).width<=width-padding*2||titleSize<=24)break;titleSize-=2;}while(true);
+    const titleLines=ctx.measureText(title).width>width-padding*2?2:1;
+    wrap(ctx,title,padding,86,width-padding*2,36,2);
+    ctx.fillStyle='#747e93';ctx.font='18px "Noto Sans SC", sans-serif';ctx.fillText(`收录 ${range} 年作品 · 共 ${items.length} 部`,padding,86+titleLines*36);
+    // Short titles reclaim the unused second line instead of leaving a blank band.
+    const headerOffset=titleLines===1?36:0;
+    let y=headerHeight-headerOffset;
     for(const group of groups) {
-      ctx.fillStyle='#425ce8';ctx.font='bold 30px "Noto Sans SC", sans-serif';ctx.fillText(`${group.year}`,60,y+40);
-      ctx.fillStyle='#959db0';ctx.font='18px sans-serif';ctx.fillText('那些陪你度过的好时光',165,y+37);y+=80;
+      ctx.fillStyle='#425ce8';ctx.font='bold 24px "Noto Sans SC", sans-serif';ctx.fillText(`${group.year}`,padding,y+27);
+      ctx.fillStyle='#959db0';ctx.font='16px sans-serif';ctx.fillText(`${group.items.length} 部`,padding+78,y+25);y+=groupHeading;
       const images=await Promise.all(group.items.map(a=>loadImage(a.cover)));
       group.items.forEach((a,i)=>{
-        const x=60+(i%5)*220,top=y+Math.floor(i/5)*320;
-        ctx.fillStyle='#e1e6f2';ctx.fillRect(x,top,200,250);
-        if(images[i])drawCover(ctx,images[i],x,top,200,250);
-        else {ctx.fillStyle='#7382a2';ctx.font='24px "Noto Sans SC", sans-serif';wrap(ctx,a.title,x+15,top+90,170,38,3);}
-        ctx.fillStyle='#303849';ctx.font='500 20px "Noto Sans SC", sans-serif';wrap(ctx,a.title,x,top+279,200,27,2);
+        const x=padding+(i%columns)*(coverWidth+gap),top=y+Math.floor(i/columns)*rowHeight;
+        ctx.fillStyle='#e1e6f2';ctx.fillRect(x,top,coverWidth,coverHeight);
+        if(images[i])drawCover(ctx,images[i],x,top,coverWidth,coverHeight);
+        else {ctx.fillStyle='#7382a2';ctx.font='22px "Noto Sans SC", sans-serif';wrap(ctx,a.title,x+12,top+coverHeight/3,coverWidth-24,32,3);}
+        ctx.fillStyle='#303849';ctx.font='500 18px "Noto Sans SC", sans-serif';wrap(ctx,a.title,x,top+coverHeight+24,coverWidth,24,2);
       });
-      y+=Math.ceil(group.items.length/5)*320;
+      y+=Math.ceil(group.items.length/columns)*rowHeight;
     }
-    ctx.strokeStyle='#dce1ed';ctx.beginPath();ctx.moveTo(60,height-85);ctx.lineTo(1140,height-85);ctx.stroke();
-    ctx.fillStyle='#8992a5';ctx.font='17px "Noto Sans SC", sans-serif';ctx.fillText('每一部，都有你的回忆。  ·  资料来源 Bangumi',60,height-43);
-    ctx.textAlign='right';ctx.fillText(`${p+1} / ${pages.length}`,1140,height-43);
-    const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));
+    ctx.strokeStyle='#dce1ed';ctx.beginPath();ctx.moveTo(padding,y+8);ctx.lineTo(width-padding,y+8);ctx.stroke();
+    ctx.fillStyle='#8992a5';ctx.font='15px "Noto Sans SC", sans-serif';ctx.fillText('番迹 · 资料来源 Bangumi',padding,y+37);
+    ctx.textAlign='right';ctx.fillText(`${p+1} / ${pages.length}`,width-padding,y+37);
+    const output=document.createElement('canvas');output.width=width;output.height=height-headerOffset;
+    output.getContext('2d').drawImage(canvas,0,0);
+    const blob=await new Promise(resolve=>output.toBlob(resolve,'image/png'));
     if(!blob)throw new Error('图片生成失败，请减少作品数量后重试');
-    results.push(blob);canvas.width=1;canvas.height=1;
+    results.push(blob);canvas.width=1;canvas.height=1;output.width=1;output.height=1;
   }
   return results;
 }
