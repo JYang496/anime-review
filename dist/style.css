@@ -88,6 +88,8 @@ main{padding-bottom:30px}
 }
 
 /* Shared navigation and game catalogue. */
+.series-toggle{display:flex;align-items:center;gap:5px;font-size:14px;color:#747e91;white-space:nowrap}
+@media(max-width:760px){.series-toggle{font-size:12px}}
 .mode-switch{display:flex;gap:3px;padding:3px;border-radius:9px;background:#f0f2f8;flex-shrink:0}
 .mode-switch a{padding:5px 13px;border-radius:6px;font-size:13px;color:#737b8e}
 .mode-switch a[aria-current=page]{background:var(--blue);color:#fff;box-shadow:0 2px 5px #425ce822}

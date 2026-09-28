@@ -1,15 +1,18 @@
 import {filterItems,sortItems,restoreSelection} from './catalog.js';
 import {renderPosters} from './poster.js';
 import {isGames,mode,restoreGames} from './modes.js';
+import {buildSeriesIndex,toggleSelection} from './series.js';
 const $=s=>document.querySelector(s);
 const storageKey=mode.key;
 let items=[],selected=new Set(),year='all',quarter='all',limit=40,posterUrls=[],generating=false;
 let clearedSelection=null;
+let seriesIndex=new Map();
+const seriesStorageKey='anime-review:auto-series:v1';
 const el=(tag,className,text)=>{const e=document.createElement(tag);if(className)e.className=className;if(text!==undefined)e.textContent=text;return e;};
 function safeRead(key){try{return localStorage.getItem(key)}catch{return null}}
 function save(){try{localStorage.setItem(storageKey,JSON.stringify([...selected]));localStorage.setItem('anime-review:nickname',$('#nickname').value);$('#save-status').textContent='已保存至此浏览器。'}catch{$('#save-status').textContent='浏览器未允许保存，请在离开前下载清单。'}}
 function coverImage(a){const img=el('img');img.src=a.cover;img.alt=a.title;img.loading='lazy';img.decoding='async';img.addEventListener('error',()=>img.replaceWith(el('span','fallback',a.title)),{once:true});return img;}
-function toggle(id){const activeId=document.activeElement?.dataset.id;selected.has(id)?selected.delete(id):selected.add(id);save();render();renderCollection();if(activeId)($(`[data-id="${activeId}"]`)||$('#selected-only')).focus({preventScroll:true});}
+function toggle(id){const activeId=document.activeElement?.dataset.id;selected=toggleSelection(selected,id,seriesIndex,!isGames&&$('#auto-series').checked);save();render();renderCollection();if(activeId)($(`[data-id="${activeId}"]`)||$('#selected-only')).focus({preventScroll:true});}
 function renderCollection(){
   const count=items.filter(a=>selected.has(a.id)).length;
   $('#count').textContent=count;
@@ -63,6 +66,7 @@ async function load(){
   try{
     const res=await fetch(mode.catalog);if(!res.ok)throw new Error('catalog');
     const data=await res.json();if(!Array.isArray(data.items)||!data.items.length)throw new Error('empty');items=data.items;
+    seriesIndex=isGames?new Map():buildSeriesIndex(items);
     selected=isGames?restoreGames(safeRead(storageKey)):restoreSelection(safeRead(storageKey),items);$('#nickname').value=(safeRead('anime-review:nickname')||'').slice(0,20);$('#nickname').disabled=false;
     const years=$('#years');years.replaceChildren();
     (isGames?[]:['all',...Array.from(new Set(items.map(a=>String(a.year)))).sort().reverse()]).forEach(y=>{const b=el('button','',y==='all'?'近三年':y);b.dataset.year=y;b.onclick=()=>{year=y;limit=40;render()};years.append(b)});
@@ -72,6 +76,11 @@ async function load(){
 }
 document.querySelectorAll('[data-quarter]').forEach(b=>b.onclick=()=>{quarter=b.dataset.quarter;limit=40;render()});
 ['#search','#type','#sort','#selected-only'].forEach(s=>$(s).addEventListener(s==='#search'?'input':'change',()=>{limit=40;render()}));
+$('#auto-series').checked=safeRead(seriesStorageKey)==='true';
+$('#auto-series').onchange=()=>{
+  try{localStorage.setItem(seriesStorageKey,String($('#auto-series').checked));}
+  catch{$('#save-status').textContent='浏览器未允许保存，同系列勾选设置仅本次有效。'}
+};
 $('#edit-collection').onclick=openEditor;
 $('#close-editor').onclick=()=>$('#collection-dialog').close();
 $('#done-editing').onclick=()=>$('#collection-dialog').close();
@@ -125,6 +134,7 @@ function configureMode(){
   $('#edit-collection').disabled=true;
   $('#nickname').disabled=true;
   if(isGames){
+    $('#auto-series-option').hidden=true;
     $('#years').hidden=true;$('#quarters').hidden=true;
     $('#search').placeholder='搜索游戏名 / 简称';
     $('#sort').replaceChildren(new Option('目录顺序','catalog'),new Option('名称顺序','title'));
