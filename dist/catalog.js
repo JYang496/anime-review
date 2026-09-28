@@ -6,6 +6,21 @@ export function posterPages(items) {
   const sorted=[...items].sort((a,b)=>b.year-a.year||b.date.localeCompare(a.date)||a.id-b.id);
   return sorted.length ? [sorted] : [];
 }
+export function posterCells(items) {
+  const sorted=posterPages(items)[0]||[];
+  const counts=new Map();
+  sorted.forEach(item=>counts.set(item.year,(counts.get(item.year)||0)+1));
+  const cells=[];
+  let previousYear;
+  for(const item of sorted) {
+    if(item.year!==previousYear) {
+      cells.push({kind:'year',year:item.year,count:counts.get(item.year)});
+      previousYear=item.year;
+    }
+    cells.push({kind:'anime',item});
+  }
+  return cells;
+}
 export function sortItems(items,order='popular') {
   const recent=(a,b)=>(b.date||'').localeCompare(a.date||'')||a.id-b.id;
   const comparators={
