@@ -2,9 +2,9 @@ export function filterItems(items,{year='all',quarter='all',type='all',query='',
   const term=query.trim().normalize('NFKC').toLocaleLowerCase();
   return items.filter(a=>(year==='all'||a.year===Number(year))&&(quarter==='all'||a.quarter===Number(quarter))&&(type==='all'||a.type===type)&&(!selectedOnly||selected.has(a.id))&&(!term||[a.title,a.original,...(a.aliases||[])].some(t=>t.normalize('NFKC').toLocaleLowerCase().includes(term))));
 }
-export function posterPages(items,size=20) {
+export function posterPages(items) {
   const sorted=[...items].sort((a,b)=>b.year-a.year||b.date.localeCompare(a.date)||a.id-b.id);
-  return Array.from({length:Math.ceil(sorted.length/size)},(_,i)=>sorted.slice(i*size,(i+1)*size));
+  return sorted.length ? [sorted] : [];
 }
 export function sortItems(items,order='popular') {
   const recent=(a,b)=>(b.date||'').localeCompare(a.date||'')||a.id-b.id;

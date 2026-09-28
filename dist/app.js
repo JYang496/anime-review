@@ -85,9 +85,9 @@ async function generate(){
   posterUrls.forEach(u=>URL.revokeObjectURL(u));posterUrls=[];
   try{
     await Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,4000))]);
-    const blobs=await renderPosters(items.filter(a=>selected.has(a.id)),$('#nickname').value,(p,total)=>$('#poster-status').textContent=`正在生成图片 ${p} / ${total}…`);
-    blobs.forEach((blob,i)=>{const url=URL.createObjectURL(blob);posterUrls.push(url);const img=el('img');img.src=url;img.alt=`动画观看清单，第 ${i+1} 张`;$('#poster-preview').append(img);const a=el('a','download',blobs.length===1?'下载高清图片 ↓':`下载第 ${i+1} 张 ↓`);a.href=url;a.download=`番迹-动画观看清单-${i+1}.png`;$('#download-links').append(a)});
-    $('#poster-status').textContent=blobs.length>1?`共 ${selected.size} 部，已拆分为 ${blobs.length} 张高清图片。手机也可以长按图片保存。`:'清单已生成。下载高清 PNG，或在手机上长按图片保存。';
+    const blobs=await renderPosters(items.filter(a=>selected.has(a.id)),$('#nickname').value,()=>$('#poster-status').textContent='正在生成完整长图…');
+    blobs.forEach((blob,i)=>{const url=URL.createObjectURL(blob);posterUrls.push(url);const img=el('img');img.src=url;img.alt='动画观看清单长图';$('#poster-preview').append(img);const a=el('a','download','下载完整长图 ↓');a.href=url;a.download='番迹-动画观看清单.png';$('#download-links').append(a)});
+    $('#poster-status').textContent=`共 ${selected.size} 部，已生成一张完整长图。下载 PNG，或在手机上长按图片保存。`;
   }catch(e){$('#poster-status').textContent=`生成失败：${e.message}。请返回后重试。`;}
   finally{generating=false;}
 }
