@@ -1,0 +1,3211 @@
+{
+  "discoveredAt": "2026-09-28T01:35:50.518Z",
+  "searches": [
+    {
+      "tag": "二次元",
+      "total": 89,
+      "fetched": 89,
+      "truncated": false
+    },
+    {
+      "tag": "抽卡",
+      "total": 129,
+      "fetched": 129,
+      "truncated": false
+    },
+    {
+      "tag": "手游",
+      "total": 1000,
+      "fetched": 200,
+      "truncated": true
+    }
+  ],
+  "items": [
+    {
+      "id": 284157,
+      "title": "原神",
+      "original": "原神",
+      "sourceUrl": "https://bgm.tv/subject/284157",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 225878,
+      "title": "明日方舟",
+      "original": "明日方舟",
+      "sourceUrl": "https://bgm.tv/subject/225878",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 300648,
+      "title": "蔚蓝档案",
+      "original": "ブルーアーカイブ -Blue Archive-",
+      "sourceUrl": "https://bgm.tv/subject/300648",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 445334,
+      "title": "米塔",
+      "original": "MiSide",
+      "sourceUrl": "https://bgm.tv/subject/445334",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 360097,
+      "title": "崩坏：星穹铁道",
+      "original": "崩坏：星穹铁道",
+      "sourceUrl": "https://bgm.tv/subject/360097",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 233713,
+      "title": "碧蓝幻想 Relink",
+      "original": "GRANBLUE FANTASY: Relink",
+      "sourceUrl": "https://bgm.tv/subject/233713",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 241623,
+      "title": "喵斯快跑",
+      "original": "喵斯快跑",
+      "sourceUrl": "https://bgm.tv/subject/241623",
+      "discoveredBy": [
+        "二次元",
+        "手游"
+      ]
+    },
+    {
+      "id": 208559,
+      "title": "碧蓝航线",
+      "original": "碧蓝航线",
+      "sourceUrl": "https://bgm.tv/subject/208559",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 385208,
+      "title": "鸣潮",
+      "original": "鸣潮",
+      "sourceUrl": "https://bgm.tv/subject/385208",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 374638,
+      "title": "明日方舟：终末地",
+      "original": "明日方舟：终末地",
+      "sourceUrl": "https://bgm.tv/subject/374638",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 380974,
+      "title": "绝区零",
+      "original": "绝区零",
+      "sourceUrl": "https://bgm.tv/subject/380974",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 213374,
+      "title": "噬血代码",
+      "original": "CODE VEIN",
+      "sourceUrl": "https://bgm.tv/subject/213374",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 475990,
+      "title": "无限机兵",
+      "original": "无限机兵",
+      "sourceUrl": "https://bgm.tv/subject/475990",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 503983,
+      "title": "异环",
+      "original": "异环",
+      "sourceUrl": "https://bgm.tv/subject/503983",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 293554,
+      "title": "战双帕弥什",
+      "original": "战双帕弥什",
+      "sourceUrl": "https://bgm.tv/subject/293554",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 298651,
+      "title": "超时空方舟",
+      "original": "Chrono Ark",
+      "sourceUrl": "https://bgm.tv/subject/298651",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 89095,
+      "title": "爱相随+",
+      "original": "ラブプラス+",
+      "sourceUrl": "https://bgm.tv/subject/89095",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 378389,
+      "title": "尘白禁区",
+      "original": "尘白禁区",
+      "sourceUrl": "https://bgm.tv/subject/378389",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 75543,
+      "title": "真恋~寄语枫秋~",
+      "original": "真恋~寄语枫秋~",
+      "sourceUrl": "https://bgm.tv/subject/75543",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 419708,
+      "title": "TEVI",
+      "original": "TEVI",
+      "sourceUrl": "https://bgm.tv/subject/419708",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 306788,
+      "title": "少女前线2：追放",
+      "original": "少女前线2：追放",
+      "sourceUrl": "https://bgm.tv/subject/306788",
+      "discoveredBy": [
+        "二次元",
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 415454,
+      "title": "卡拉彼丘",
+      "original": "卡拉彼丘",
+      "sourceUrl": "https://bgm.tv/subject/415454",
+      "discoveredBy": [
+        "二次元",
+        "手游"
+      ]
+    },
+    {
+      "id": 10183,
+      "title": "黑岩射手 THE GAME",
+      "original": "ブラック★ロックシューター THE GAME",
+      "sourceUrl": "https://bgm.tv/subject/10183",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 127870,
+      "title": "300英雄",
+      "original": "300英雄",
+      "sourceUrl": "https://bgm.tv/subject/127870",
+      "discoveredBy": [
+        "二次元",
+        "手游"
+      ]
+    },
+    {
+      "id": 222871,
+      "title": "刀剑神域：夺命凶弹",
+      "original": "ソードアート・オンライン フェイタル・バレット",
+      "sourceUrl": "https://bgm.tv/subject/222871",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 349459,
+      "title": "来自星尘",
+      "original": "来自星尘",
+      "sourceUrl": "https://bgm.tv/subject/349459",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 485660,
+      "title": "蓝色星原：旅谣",
+      "original": "蓝色星原：旅谣",
+      "sourceUrl": "https://bgm.tv/subject/485660",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 84871,
+      "title": "刀剑神域：虚空断章",
+      "original": "ソードアート・オンライン -ホロウ・フラグメント-",
+      "sourceUrl": "https://bgm.tv/subject/84871",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 457540,
+      "title": "吉星派对",
+      "original": "星引擎 Party",
+      "sourceUrl": "https://bgm.tv/subject/457540",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 621188,
+      "title": "BanG Dream! 交织的乐章",
+      "original": "BanG Dream! Our Notes",
+      "sourceUrl": "https://bgm.tv/subject/621188",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 72102,
+      "title": "崩坏学园",
+      "original": "崩坏学园",
+      "sourceUrl": "https://bgm.tv/subject/72102",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 375295,
+      "title": "深空之眼",
+      "original": "深空之眼",
+      "sourceUrl": "https://bgm.tv/subject/375295",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 37399,
+      "title": "静籁之空  献给失落之星的敬奉诗",
+      "original": "Ciel nosurge ～失われた星へ捧ぐ詩～",
+      "sourceUrl": "https://bgm.tv/subject/37399",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 466003,
+      "title": "无名者：屠龙",
+      "original": "无名者：屠龙",
+      "sourceUrl": "https://bgm.tv/subject/466003",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 562985,
+      "title": "噬血代码2",
+      "original": "CODE VEIN II",
+      "sourceUrl": "https://bgm.tv/subject/562985",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 266863,
+      "title": "第七史诗",
+      "original": "데미갓워",
+      "sourceUrl": "https://bgm.tv/subject/266863",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 476846,
+      "title": "兽娘红茶馆",
+      "original": "けものティータイム",
+      "sourceUrl": "https://bgm.tv/subject/476846",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 347210,
+      "title": "灵魂潮汐",
+      "original": "灵魂潮汐",
+      "sourceUrl": "https://bgm.tv/subject/347210",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 450746,
+      "title": "无限大",
+      "original": "无限大",
+      "sourceUrl": "https://bgm.tv/subject/450746",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 487511,
+      "title": "星塔旅人",
+      "original": "星塔旅人",
+      "sourceUrl": "https://bgm.tv/subject/487511",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 279465,
+      "title": "刀剑神域 彼岸游境",
+      "original": "ソードアート・オンライン Alicization Lycoris",
+      "sourceUrl": "https://bgm.tv/subject/279465",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 460248,
+      "title": "二重螺旋",
+      "original": "二重螺旋",
+      "sourceUrl": "https://bgm.tv/subject/460248",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 366806,
+      "title": "雷索纳斯",
+      "original": "雷索纳斯",
+      "sourceUrl": "https://bgm.tv/subject/366806",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 368531,
+      "title": "物华弥新",
+      "original": "物华弥新",
+      "sourceUrl": "https://bgm.tv/subject/368531",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 388894,
+      "title": "白荆回廊",
+      "original": "白荆回廊",
+      "sourceUrl": "https://bgm.tv/subject/388894",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 287339,
+      "title": "非人学园",
+      "original": "非人学园",
+      "sourceUrl": "https://bgm.tv/subject/287339",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 485820,
+      "title": "Card-en-Ciel 天穹卡牌录",
+      "original": "カルドアンシェル",
+      "sourceUrl": "https://bgm.tv/subject/485820",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 593165,
+      "title": "卡厄思梦境",
+      "original": "카오스 제로 나이트메어",
+      "sourceUrl": "https://bgm.tv/subject/593165",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 395872,
+      "title": "交错战线",
+      "original": "交错战线",
+      "sourceUrl": "https://bgm.tv/subject/395872",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 194274,
+      "title": "加速世界VS刀剑神域 千年黄昏",
+      "original": "アクセルワールド VS ソードアート・オンライン 千年の黄昏",
+      "sourceUrl": "https://bgm.tv/subject/194274",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 214766,
+      "title": "篱笆庄密闻",
+      "original": "篱笆庄密闻",
+      "sourceUrl": "https://bgm.tv/subject/214766",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 410404,
+      "title": "归龙潮",
+      "original": "归龙潮",
+      "sourceUrl": "https://bgm.tv/subject/410404",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 554947,
+      "title": "崩坏：因缘精灵",
+      "original": "崩坏：因缘精灵",
+      "sourceUrl": "https://bgm.tv/subject/554947",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 141778,
+      "title": "奇迹少女祭",
+      "original": "ミラクルガールズフェスティバル",
+      "sourceUrl": "https://bgm.tv/subject/141778",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 481664,
+      "title": "刀剑神域 碎梦边境",
+      "original": "ソードアート・オンライン フラクチュアード デイドリーム",
+      "sourceUrl": "https://bgm.tv/subject/481664",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 558199,
+      "title": "白银之城",
+      "original": "白银之城",
+      "sourceUrl": "https://bgm.tv/subject/558199",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 316536,
+      "title": "幻书启世录",
+      "original": "幻书启世录",
+      "sourceUrl": "https://bgm.tv/subject/316536",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 491015,
+      "title": "星之翼",
+      "original": "星之翼",
+      "sourceUrl": "https://bgm.tv/subject/491015",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 373228,
+      "title": "奇点物语",
+      "original": "奇点时代",
+      "sourceUrl": "https://bgm.tv/subject/373228",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 368002,
+      "title": "环行旅舍",
+      "original": "环行旅舍",
+      "sourceUrl": "https://bgm.tv/subject/368002",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 73758,
+      "title": "黑白双翼",
+      "original": "Weiβ Schwarz",
+      "sourceUrl": "https://bgm.tv/subject/73758",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 404248,
+      "title": "银河境界线",
+      "original": "银河境界线",
+      "sourceUrl": "https://bgm.tv/subject/404248",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 214308,
+      "title": "幻想全明星",
+      "original": "幻想全明星",
+      "sourceUrl": "https://bgm.tv/subject/214308",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 98208,
+      "title": "爱相随Collection",
+      "original": "ラブプラス コレクション",
+      "sourceUrl": "https://bgm.tv/subject/98208",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 373644,
+      "title": "光隙解语",
+      "original": "光隙解语",
+      "sourceUrl": "https://bgm.tv/subject/373644",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 462994,
+      "title": "望月",
+      "original": "望月",
+      "sourceUrl": "https://bgm.tv/subject/462994",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 498627,
+      "title": "降妖散记",
+      "original": "降妖散记",
+      "sourceUrl": "https://bgm.tv/subject/498627",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 409394,
+      "title": "神剑少女战记",
+      "original": "つるぎ姫",
+      "sourceUrl": "https://bgm.tv/subject/409394",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 512868,
+      "title": "命运扳机",
+      "original": "命运扳机",
+      "sourceUrl": "https://bgm.tv/subject/512868",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 414741,
+      "title": "艾伦塔罗斯奇历",
+      "original": "リアセカイ",
+      "sourceUrl": "https://bgm.tv/subject/414741",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 560719,
+      "title": "杖剑传说",
+      "original": "杖剑传说",
+      "sourceUrl": "https://bgm.tv/subject/560719",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 19455,
+      "title": "情绪渲染卡",
+      "original": "MindCard",
+      "sourceUrl": "https://bgm.tv/subject/19455",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 542474,
+      "title": "龙魂旅人",
+      "original": "龍魂旅人",
+      "sourceUrl": "https://bgm.tv/subject/542474",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 563177,
+      "title": "归环",
+      "original": "归环",
+      "sourceUrl": "https://bgm.tv/subject/563177",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 380494,
+      "title": "空灵诗篇",
+      "original": "에버소울",
+      "sourceUrl": "https://bgm.tv/subject/380494",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 506885,
+      "title": "星落",
+      "original": "星落",
+      "sourceUrl": "https://bgm.tv/subject/506885",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 145218,
+      "title": "兔子必须死",
+      "original": "チェルシーさんは7の魔神をブッ殺さねばならない。",
+      "sourceUrl": "https://bgm.tv/subject/145218",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 534921,
+      "title": "究极少女 阿尔特斯",
+      "original": "究极少女 阿尔特斯",
+      "sourceUrl": "https://bgm.tv/subject/534921",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 118486,
+      "title": "佩裡亚编年史",
+      "original": "페리아 연대기",
+      "sourceUrl": "https://bgm.tv/subject/118486",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 450700,
+      "title": "散樱乱武新幕：基本",
+      "original": "新幕 桜降る代に決闘を 基本セット",
+      "sourceUrl": "https://bgm.tv/subject/450700",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 518239,
+      "title": "天月麻雀",
+      "original": "天月麻雀",
+      "sourceUrl": "https://bgm.tv/subject/518239",
+      "discoveredBy": [
+        "二次元",
+        "抽卡"
+      ]
+    },
+    {
+      "id": 247803,
+      "title": "黑色五叶草 骑士四重奏",
+      "original": "ブラック・クローバー カルテットナイツ",
+      "sourceUrl": "https://bgm.tv/subject/247803",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 496125,
+      "title": "神行少女",
+      "original": "神行少女",
+      "sourceUrl": "https://bgm.tv/subject/496125",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 169468,
+      "title": "X战娘",
+      "original": "X战娘",
+      "sourceUrl": "https://bgm.tv/subject/169468",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 517637,
+      "title": "エンバーストーリア",
+      "original": "エンバーストーリア",
+      "sourceUrl": "https://bgm.tv/subject/517637",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 524485,
+      "title": "掌心全民麻将",
+      "original": "掌心全民麻将",
+      "sourceUrl": "https://bgm.tv/subject/524485",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 537381,
+      "title": "杠精的108种死法",
+      "original": "杠精的108种死法",
+      "sourceUrl": "https://bgm.tv/subject/537381",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 534089,
+      "title": "雀愿",
+      "original": "雀願",
+      "sourceUrl": "https://bgm.tv/subject/534089",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 653717,
+      "title": "WTF - 枪娘特攻",
+      "original": "WTF - Waifu Tactical Force",
+      "sourceUrl": "https://bgm.tv/subject/653717",
+      "discoveredBy": [
+        "二次元"
+      ]
+    },
+    {
+      "id": 109378,
+      "title": "命运-冠位指定",
+      "original": "Fate/Grand Order",
+      "sourceUrl": "https://bgm.tv/subject/109378",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 295308,
+      "title": "炽焰天穹",
+      "original": "ヘブンバーンズレッド",
+      "sourceUrl": "https://bgm.tv/subject/295308",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 208415,
+      "title": "BanG Dream! 少女乐团派对！",
+      "original": "バンドリ！ ガールズバンドパーティ！",
+      "sourceUrl": "https://bgm.tv/subject/208415",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 219588,
+      "title": "公主连结 Re:Dive",
+      "original": "プリンセスコネクト！Re:Dive",
+      "sourceUrl": "https://bgm.tv/subject/219588",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 172168,
+      "title": "崩坏3",
+      "original": "崩坏3",
+      "sourceUrl": "https://bgm.tv/subject/172168",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 309303,
+      "title": "世界计划 缤纷舞台！ feat. 初音未来",
+      "original": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+      "sourceUrl": "https://bgm.tv/subject/309303",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 250372,
+      "title": "雀魂麻将",
+      "original": "雀魂麻将",
+      "sourceUrl": "https://bgm.tv/subject/250372",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 175552,
+      "title": "赛马娘 Pretty Derby",
+      "original": "ウマ娘 プリティーダービー",
+      "sourceUrl": "https://bgm.tv/subject/175552",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 482314,
+      "title": "学园偶像大师",
+      "original": "学園アイドルマスター",
+      "sourceUrl": "https://bgm.tv/subject/482314",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 71575,
+      "title": "LoveLive! 学园偶像祭",
+      "original": "ラブライブ！スクールアイドルフェスティバル",
+      "sourceUrl": "https://bgm.tv/subject/71575",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 365720,
+      "title": "重返未来：1999",
+      "original": "重返未来：1999",
+      "sourceUrl": "https://bgm.tv/subject/365720",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 192010,
+      "title": "阴阳师",
+      "original": "阴阳师",
+      "sourceUrl": "https://bgm.tv/subject/192010",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 343054,
+      "title": "胜利女神：妮姬",
+      "original": "승리의 여신：니케",
+      "sourceUrl": "https://bgm.tv/subject/343054",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 101819,
+      "title": "崩坏学园2",
+      "original": "崩坏学园2",
+      "sourceUrl": "https://bgm.tv/subject/101819",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 38537,
+      "title": "扩散性百万亚瑟王",
+      "original": "拡散性ミリオンアーサー",
+      "sourceUrl": "https://bgm.tv/subject/38537",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 116285,
+      "title": "风暴英雄",
+      "original": "Heroes of the Storm",
+      "sourceUrl": "https://bgm.tv/subject/116285",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 409324,
+      "title": "无限暖暖",
+      "original": "无限暖暖",
+      "sourceUrl": "https://bgm.tv/subject/409324",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 208779,
+      "title": "魔法纪录 魔法少女小圆外传",
+      "original": "マギアレコード 魔法少女まどか☆マギカ外伝",
+      "sourceUrl": "https://bgm.tv/subject/208779",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 124878,
+      "title": "奇迹暖暖",
+      "original": "奇迹暖暖",
+      "sourceUrl": "https://bgm.tv/subject/124878",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 424872,
+      "title": "女神异闻录：夜幕魅影",
+      "original": "女神异闻录：夜幕魅影",
+      "sourceUrl": "https://bgm.tv/subject/424872",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 132916,
+      "title": "偶像梦幻祭",
+      "original": "あんさんぶるスターズ！",
+      "sourceUrl": "https://bgm.tv/subject/132916",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 332512,
+      "title": "坎特伯雷公主与骑士唤醒冠军之剑的奇幻冒险",
+      "original": "가디언 테일즈",
+      "sourceUrl": "https://bgm.tv/subject/332512",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 128670,
+      "title": "梦王国与沉睡的100名王子",
+      "original": "夢王国と眠れる100人の王子様",
+      "sourceUrl": "https://bgm.tv/subject/128670",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 227547,
+      "title": "恋与制作人",
+      "original": "恋与制作人",
+      "sourceUrl": "https://bgm.tv/subject/227547",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 174750,
+      "title": "火影忍者 手游",
+      "original": "火影忍者",
+      "sourceUrl": "https://bgm.tv/subject/174750",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 306789,
+      "title": "少女前线：云图计划",
+      "original": "少女前线：云图计划",
+      "sourceUrl": "https://bgm.tv/subject/306789",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 442666,
+      "title": "棕色尘埃2",
+      "original": "브라운더스트 2",
+      "sourceUrl": "https://bgm.tv/subject/442666",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 295219,
+      "title": "世界弹射物语",
+      "original": "WORLD FLIPPER",
+      "sourceUrl": "https://bgm.tv/subject/295219",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 192317,
+      "title": "另一个伊甸：超越时空的猫",
+      "original": "アナザーエデン 時空を超える猫",
+      "sourceUrl": "https://bgm.tv/subject/192317",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 217844,
+      "title": "闪耀幻想曲",
+      "original": "きららファンタジア",
+      "sourceUrl": "https://bgm.tv/subject/217844",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 241548,
+      "title": "闪耀暖暖",
+      "original": "闪耀暖暖",
+      "sourceUrl": "https://bgm.tv/subject/241548",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 209563,
+      "title": "死亡爱丽丝",
+      "original": "SINoALICE －シノアリス－",
+      "sourceUrl": "https://bgm.tv/subject/209563",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 350121,
+      "title": "无期迷途",
+      "original": "无期迷途",
+      "sourceUrl": "https://bgm.tv/subject/350121",
+      "discoveredBy": [
+        "抽卡",
+        "手游"
+      ]
+    },
+    {
+      "id": 293719,
+      "title": "偶像梦幻祭2",
+      "original": "あんさんぶるスターズ！！ Music",
+      "sourceUrl": "https://bgm.tv/subject/293719",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 432729,
+      "title": "偶像大师 闪耀色彩 Song for Prism",
+      "original": "アイドルマスター シャイニーカラーズ Song for Prism",
+      "sourceUrl": "https://bgm.tv/subject/432729",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 148177,
+      "title": "千年战争Aigis",
+      "original": "千年戦争アイギス",
+      "sourceUrl": "https://bgm.tv/subject/148177",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 314067,
+      "title": "幻塔",
+      "original": "幻塔",
+      "sourceUrl": "https://bgm.tv/subject/314067",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 228132,
+      "title": "Sdorica 万象物语",
+      "original": "Sdorica 万象物语",
+      "sourceUrl": "https://bgm.tv/subject/228132",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 285065,
+      "title": "少女咖啡枪II：双生视界",
+      "original": "双生视界",
+      "sourceUrl": "https://bgm.tv/subject/285065",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 208102,
+      "title": "A3！满开剧团",
+      "original": "A3！（エースリー）",
+      "sourceUrl": "https://bgm.tv/subject/208102",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 209688,
+      "title": "#COMPASS 战斗天赋解析系统",
+      "original": "#コンパス 【戦闘摂理解析システム】",
+      "sourceUrl": "https://bgm.tv/subject/209688",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 281426,
+      "title": "约战：精灵再临",
+      "original": "约战：精灵再临",
+      "sourceUrl": "https://bgm.tv/subject/281426",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 244918,
+      "title": "Dragalia Lost ～失落的龙约～",
+      "original": "ドラガリアロスト",
+      "sourceUrl": "https://bgm.tv/subject/244918",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 377803,
+      "title": "MementoMori",
+      "original": "メメントモリ",
+      "sourceUrl": "https://bgm.tv/subject/377803",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 431879,
+      "title": "恋与深空",
+      "original": "恋与深空",
+      "sourceUrl": "https://bgm.tv/subject/431879",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 117691,
+      "title": "东京七姐妹",
+      "original": "Tokyo 7th シスターズ",
+      "sourceUrl": "https://bgm.tv/subject/117691",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 296227,
+      "title": "阴阳师：百闻牌",
+      "original": "阴阳师：百闻牌",
+      "sourceUrl": "https://bgm.tv/subject/296227",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 218891,
+      "title": "天命之子",
+      "original": "데스티니차일드",
+      "sourceUrl": "https://bgm.tv/subject/218891",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 254793,
+      "title": "冻京NECRO SUICIDE MISSION",
+      "original": "凍京NECRO SUICIDE MISSION",
+      "sourceUrl": "https://bgm.tv/subject/254793",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 316024,
+      "title": "哈利波特：魔法觉醒",
+      "original": "哈利波特：魔法觉醒",
+      "sourceUrl": "https://bgm.tv/subject/316024",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 363020,
+      "title": "幸福枪弹辩驳S 超高中级的南国掷骰合宿",
+      "original": "ハッピーダンガンロンパＳ 超高校級の南国サイコロ合宿",
+      "sourceUrl": "https://bgm.tv/subject/363020",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 129591,
+      "title": "克鲁赛德战记",
+      "original": "크루세이더 퀘스트",
+      "sourceUrl": "https://bgm.tv/subject/129591",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 277218,
+      "title": "歧路旅人：大陆的霸者",
+      "original": "OCTOPATH TRAVELER 大陸の覇者",
+      "sourceUrl": "https://bgm.tv/subject/277218",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 112906,
+      "title": "SHOW BY ROCK!!",
+      "original": "SHOW BY ROCK!!",
+      "sourceUrl": "https://bgm.tv/subject/112906",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 482462,
+      "title": "宝可梦TCG口袋版",
+      "original": "Pokémon Trading Card Game Pocket",
+      "sourceUrl": "https://bgm.tv/subject/482462",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 279089,
+      "title": "迪士尼 扭曲仙境",
+      "original": "ディズニー ツイステッドワンダーランド",
+      "sourceUrl": "https://bgm.tv/subject/279089",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 447490,
+      "title": "千年之旅",
+      "original": "千年之旅",
+      "sourceUrl": "https://bgm.tv/subject/447490",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 256076,
+      "title": "梦幻模拟战手游",
+      "original": "梦幻模拟战手游",
+      "sourceUrl": "https://bgm.tv/subject/256076",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 214577,
+      "title": "机动战队",
+      "original": "机动战队",
+      "sourceUrl": "https://bgm.tv/subject/214577",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 307375,
+      "title": "天地劫：幽城再临",
+      "original": "天地劫：幽城再临",
+      "sourceUrl": "https://bgm.tv/subject/307375",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 245001,
+      "title": "牧羊人之心",
+      "original": "牧羊人之心",
+      "sourceUrl": "https://bgm.tv/subject/245001",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 100865,
+      "title": "怪物弹珠",
+      "original": "モンスターストライク",
+      "sourceUrl": "https://bgm.tv/subject/100865",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 285066,
+      "title": "重装战姬",
+      "original": "重装战姬",
+      "sourceUrl": "https://bgm.tv/subject/285066",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 289563,
+      "title": "为美好的世界献上祝福！Fantastic Days",
+      "original": "この素晴らしい世界に祝福を！ファンタスティックデイズ",
+      "sourceUrl": "https://bgm.tv/subject/289563",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 306889,
+      "title": "灰烬战线",
+      "original": "灰烬战线",
+      "sourceUrl": "https://bgm.tv/subject/306889",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 342593,
+      "title": "铃兰之剑：为这和平的世界",
+      "original": "铃兰之剑：为这和平的世界",
+      "sourceUrl": "https://bgm.tv/subject/342593",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 394507,
+      "title": "麻雀一番街",
+      "original": "麻雀一番街",
+      "sourceUrl": "https://bgm.tv/subject/394507",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 352875,
+      "title": "爆裂魔女",
+      "original": "爆裂魔女",
+      "sourceUrl": "https://bgm.tv/subject/352875",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 403043,
+      "title": "想要成为影之实力者！Master of Garden",
+      "original": "陰の実力者になりたくて！マスターオブガーデン",
+      "sourceUrl": "https://bgm.tv/subject/403043",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 356760,
+      "title": "以闪亮之名",
+      "original": "以闪亮之名",
+      "sourceUrl": "https://bgm.tv/subject/356760",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 193036,
+      "title": "文豪与炼金术师",
+      "original": "文豪とアルケミスト",
+      "sourceUrl": "https://bgm.tv/subject/193036",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 277420,
+      "title": "剑与远征",
+      "original": "AFK Arena",
+      "sourceUrl": "https://bgm.tv/subject/277420",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 336526,
+      "title": "异界事务所",
+      "original": "카운터사이드",
+      "sourceUrl": "https://bgm.tv/subject/336526",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 431070,
+      "title": "欢迎来到梦乐园",
+      "original": "欢迎来到梦乐园",
+      "sourceUrl": "https://bgm.tv/subject/431070",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 215251,
+      "title": "文豪野犬 迷途犬怪奇譚",
+      "original": "文豪ストレイドッグス 迷ヰ犬怪奇譚",
+      "sourceUrl": "https://bgm.tv/subject/215251",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 383746,
+      "title": "漫威终极逆转",
+      "original": "Marvel Snap",
+      "sourceUrl": "https://bgm.tv/subject/383746",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 225238,
+      "title": "料理次元",
+      "original": "料理次元",
+      "sourceUrl": "https://bgm.tv/subject/225238",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 305312,
+      "title": "从零开始的异世界生活-无限",
+      "original": "Re：从零开始的异世界生活-INFINTY",
+      "sourceUrl": "https://bgm.tv/subject/305312",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 225714,
+      "title": "执剑之刻",
+      "original": "执剑之刻",
+      "sourceUrl": "https://bgm.tv/subject/225714",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 227551,
+      "title": "食之契约",
+      "original": "食之契约",
+      "sourceUrl": "https://bgm.tv/subject/227551",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 207453,
+      "title": "天华百剑 ‐斩‐",
+      "original": "天華百剣 ‐斬‐",
+      "sourceUrl": "https://bgm.tv/subject/207453",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 327027,
+      "title": "机动战姬：聚变",
+      "original": "机动战姬：聚变",
+      "sourceUrl": "https://bgm.tv/subject/327027",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 406085,
+      "title": "恒久之绊",
+      "original": "トワツガイ",
+      "sourceUrl": "https://bgm.tv/subject/406085",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 340978,
+      "title": "冲呀！饼干人：王国",
+      "original": "Cookie Run: Kingdom",
+      "sourceUrl": "https://bgm.tv/subject/340978",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 386795,
+      "title": "猫之城",
+      "original": "猫之城",
+      "sourceUrl": "https://bgm.tv/subject/386795",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 338895,
+      "title": "航海王热血航线",
+      "original": "航海王热血航线",
+      "sourceUrl": "https://bgm.tv/subject/338895",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 447537,
+      "title": "剑与远征：启程",
+      "original": "剑与远征：启程",
+      "sourceUrl": "https://bgm.tv/subject/447537",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 390290,
+      "title": "摇曳露营△ 与大家相连的 All In One！！",
+      "original": "ゆるキャン△ つなげるみんなとオールインワン！！",
+      "sourceUrl": "https://bgm.tv/subject/390290",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 513341,
+      "title": "Wizardry Variants Daphne",
+      "original": "Wizardry Variants Daphne",
+      "sourceUrl": "https://bgm.tv/subject/513341",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 449601,
+      "title": "龙族：卡塞尔之门",
+      "original": "龙族：卡塞尔之门",
+      "sourceUrl": "https://bgm.tv/subject/449601",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 278989,
+      "title": "神都夜行录",
+      "original": "神都夜行录",
+      "sourceUrl": "https://bgm.tv/subject/278989",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 279683,
+      "title": "荒野的寿飞行队 天空的起飞少女！",
+      "original": "荒野のコトブキ飛行隊 大空のテイクオフガールズ！",
+      "sourceUrl": "https://bgm.tv/subject/279683",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 444596,
+      "title": "境·界 刀鸣",
+      "original": "境·界 刀鸣",
+      "sourceUrl": "https://bgm.tv/subject/444596",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 493682,
+      "title": "大家的幻想乡",
+      "original": "大家的幻想乡",
+      "sourceUrl": "https://bgm.tv/subject/493682",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 422813,
+      "title": "非匿名指令",
+      "original": "非匿名指令",
+      "sourceUrl": "https://bgm.tv/subject/422813",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 280886,
+      "title": "骷髅女孩 手机版",
+      "original": "Skullgirls Mobile",
+      "sourceUrl": "https://bgm.tv/subject/280886",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 407258,
+      "title": "风色幻想：命运传说",
+      "original": "风色幻想：命运传说",
+      "sourceUrl": "https://bgm.tv/subject/407258",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 169330,
+      "title": "cos大乱斗",
+      "original": "cos大乱斗",
+      "sourceUrl": "https://bgm.tv/subject/169330",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 407521,
+      "title": "ハイキュー!! TOUCH THE DREAM",
+      "original": "ハイキュー!! TOUCH THE DREAM",
+      "sourceUrl": "https://bgm.tv/subject/407521",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 218533,
+      "title": "アニドルカラーズ",
+      "original": "アニドルカラーズ",
+      "sourceUrl": "https://bgm.tv/subject/218533",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 308123,
+      "title": "宝石战争",
+      "original": "Gems of War",
+      "sourceUrl": "https://bgm.tv/subject/308123",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 225384,
+      "title": "もん娘ふぇすた",
+      "original": "もん娘ふぇすた",
+      "sourceUrl": "https://bgm.tv/subject/225384",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 406150,
+      "title": "戦国 A LIVE",
+      "original": "戦国 A LIVE",
+      "sourceUrl": "https://bgm.tv/subject/406150",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 489690,
+      "title": "星之后裔2：吠陀骑士",
+      "original": "별이되어라 2: 베다의 기사들",
+      "sourceUrl": "https://bgm.tv/subject/489690",
+      "discoveredBy": [
+        "抽卡"
+      ]
+    },
+    {
+      "id": 1859,
+      "title": "植物大战僵尸",
+      "original": "Plants Vs. Zombies",
+      "sourceUrl": "https://bgm.tv/subject/1859",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 234026,
+      "title": "杀戮尖塔",
+      "original": "Slay the Spire",
+      "sourceUrl": "https://bgm.tv/subject/234026",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 942,
+      "title": "扫雷",
+      "original": "Minesweeper",
+      "sourceUrl": "https://bgm.tv/subject/942",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 101922,
+      "title": "纪念碑谷",
+      "original": "Monument Valley",
+      "sourceUrl": "https://bgm.tv/subject/101922",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 20690,
+      "title": "地狱边境",
+      "original": "Limbo",
+      "sourceUrl": "https://bgm.tv/subject/20690",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 259471,
+      "title": "Christmas Tina -泡沫冬景-",
+      "original": "Christmas Tina -泡沫冬景-",
+      "sourceUrl": "https://bgm.tv/subject/259471",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 81281,
+      "title": "舰队Collection",
+      "original": "艦隊これくしょん-艦これ-",
+      "sourceUrl": "https://bgm.tv/subject/81281",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 3176,
+      "title": "机械迷城",
+      "original": "Machinarium",
+      "sourceUrl": "https://bgm.tv/subject/3176",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 95353,
+      "title": "画中世界",
+      "original": "Gorogoa",
+      "sourceUrl": "https://bgm.tv/subject/95353",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 88869,
+      "title": "古树旋律",
+      "original": "Deemo",
+      "sourceUrl": "https://bgm.tv/subject/88869",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 1916,
+      "title": "轩辕剑叁外传 天之痕",
+      "original": "軒轅劍參外傳 天之痕",
+      "sourceUrl": "https://bgm.tv/subject/1916",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 84203,
+      "title": "炉石传说",
+      "original": "Hearthstone",
+      "sourceUrl": "https://bgm.tv/subject/84203",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 198346,
+      "title": "艾希",
+      "original": "ICEY",
+      "sourceUrl": "https://bgm.tv/subject/198346",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 10858,
+      "title": "愤怒的小鸟",
+      "original": "Angry Birds",
+      "sourceUrl": "https://bgm.tv/subject/10858",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 194792,
+      "title": "王者荣耀",
+      "original": "王者荣耀",
+      "sourceUrl": "https://bgm.tv/subject/194792",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 233205,
+      "title": "音乐世界2",
+      "original": "Cytus II",
+      "sourceUrl": "https://bgm.tv/subject/233205",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 69423,
+      "title": "瘟疫公司",
+      "original": "Plague Inc.",
+      "sourceUrl": "https://bgm.tv/subject/69423",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 214630,
+      "title": "韵律源点",
+      "original": "Arcaea",
+      "sourceUrl": "https://bgm.tv/subject/214630",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 43527,
+      "title": "水果忍者",
+      "original": "Fruit Ninja",
+      "sourceUrl": "https://bgm.tv/subject/43527",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 136802,
+      "title": "少女前线",
+      "original": "少女前线",
+      "sourceUrl": "https://bgm.tv/subject/136802",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 5916,
+      "title": "向日葵",
+      "original": "ひまわり",
+      "sourceUrl": "https://bgm.tv/subject/5916",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 290836,
+      "title": "菲格罗斯",
+      "original": "Phigros",
+      "sourceUrl": "https://bgm.tv/subject/290836",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 253978,
+      "title": "幽灵镇少女 第一季",
+      "original": "ghostpia シーズンワン",
+      "sourceUrl": "https://bgm.tv/subject/253978",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 5472,
+      "title": "三国杀",
+      "original": "三国杀",
+      "sourceUrl": "https://bgm.tv/subject/5472",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 108667,
+      "title": "勇敢的心：世界大战",
+      "original": "Valiant Hearts: The Great War",
+      "sourceUrl": "https://bgm.tv/subject/108667",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 31245,
+      "title": "Cytus",
+      "original": "Cytus",
+      "sourceUrl": "https://bgm.tv/subject/31245",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 216446,
+      "title": "纪念碑谷2",
+      "original": "Monument Valley 2",
+      "sourceUrl": "https://bgm.tv/subject/216446",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 49574,
+      "title": "神庙逃亡",
+      "original": "Temple Run",
+      "sourceUrl": "https://bgm.tv/subject/49574",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 227162,
+      "title": "我在7年后等着你",
+      "original": "7年後で待ってる",
+      "sourceUrl": "https://bgm.tv/subject/227162",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 138886,
+      "title": "偶像大师 灰姑娘女孩 星光舞台",
+      "original": "アイドルマスター シンデレラガールズ スターライトステージ",
+      "sourceUrl": "https://bgm.tv/subject/138886",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 61086,
+      "title": "王国保卫战",
+      "original": "Kingdom Rush",
+      "sourceUrl": "https://bgm.tv/subject/61086",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 185359,
+      "title": "影之诗",
+      "original": "シャドウバース",
+      "sourceUrl": "https://bgm.tv/subject/185359",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 72864,
+      "title": "植物大战僵尸2",
+      "original": "Plants vs. Zombies 2",
+      "sourceUrl": "https://bgm.tv/subject/72864",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 228620,
+      "title": "弗洛伦丝",
+      "original": "Florence",
+      "sourceUrl": "https://bgm.tv/subject/228620",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 99998,
+      "title": "2048",
+      "original": "2048",
+      "sourceUrl": "https://bgm.tv/subject/99998",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 103372,
+      "title": "碧蓝幻想",
+      "original": "GRANBLUE FANTASY",
+      "sourceUrl": "https://bgm.tv/subject/103372",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 205124,
+      "title": "锈湖：根源",
+      "original": "Rusty Lake: Roots",
+      "sourceUrl": "https://bgm.tv/subject/205124",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 113559,
+      "title": "刀剑乱舞-ONLINE-",
+      "original": "刀剣乱舞-ONLINE-",
+      "sourceUrl": "https://bgm.tv/subject/113559",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 231977,
+      "title": "元气骑士",
+      "original": "元气骑士",
+      "sourceUrl": "https://bgm.tv/subject/231977",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 2397,
+      "title": "粘粘世界",
+      "original": "World of Goo",
+      "sourceUrl": "https://bgm.tv/subject/2397",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 169553,
+      "title": "锈湖：旅馆",
+      "original": "Rusty Lake Hotel",
+      "sourceUrl": "https://bgm.tv/subject/169553",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 236488,
+      "title": "偶像大师 闪耀色彩",
+      "original": "アイドルマスター シャイニーカラーズ",
+      "sourceUrl": "https://bgm.tv/subject/236488",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 343288,
+      "title": "游戏王 大师决斗",
+      "original": "遊戯王マスターデュエル",
+      "sourceUrl": "https://bgm.tv/subject/343288",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 14761,
+      "title": "恐怖惊魂夜",
+      "original": "かまいたちの夜",
+      "sourceUrl": "https://bgm.tv/subject/14761",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 117903,
+      "title": "战舰少女R",
+      "original": "战舰少女R",
+      "sourceUrl": "https://bgm.tv/subject/117903",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 75460,
+      "title": "王国保卫战：前线",
+      "original": "Kingdom Rush Frontiers",
+      "sourceUrl": "https://bgm.tv/subject/75460",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 57612,
+      "title": "割绳子",
+      "original": "Cut the Rope",
+      "sourceUrl": "https://bgm.tv/subject/57612",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 66442,
+      "title": "空房间",
+      "original": "The Room",
+      "sourceUrl": "https://bgm.tv/subject/66442",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 348392,
+      "title": "人生重开模拟器",
+      "original": "人生重开模拟器",
+      "sourceUrl": "https://bgm.tv/subject/348392",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 211088,
+      "title": "偶像大师 MILLION LIVE! THEATER DAYS",
+      "original": "アイドルマスター ミリオンライブ！ シアターデイズ",
+      "sourceUrl": "https://bgm.tv/subject/211088",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 230047,
+      "title": "月圆之夜",
+      "original": "月圆之夜",
+      "sourceUrl": "https://bgm.tv/subject/230047",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 230931,
+      "title": "锈湖：天堂岛",
+      "original": "Rusty Lake Paradise",
+      "sourceUrl": "https://bgm.tv/subject/230931",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 56956,
+      "title": "涂鸦跳跃",
+      "original": "Doodle Jump",
+      "sourceUrl": "https://bgm.tv/subject/56956",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 65913,
+      "title": "地铁跑酷",
+      "original": "Subway Surfers",
+      "sourceUrl": "https://bgm.tv/subject/65913",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 10685,
+      "title": "游戏开发物语",
+      "original": "ゲーム発展国++",
+      "sourceUrl": "https://bgm.tv/subject/10685",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 56240,
+      "title": "鳄鱼小顽皮爱洗澡",
+      "original": "Where's My Water",
+      "sourceUrl": "https://bgm.tv/subject/56240",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 101108,
+      "title": "模拟山羊",
+      "original": "Goat Simulator",
+      "sourceUrl": "https://bgm.tv/subject/101108",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 96136,
+      "title": "Flappy Bird",
+      "original": "Flappy Bird",
+      "sourceUrl": "https://bgm.tv/subject/96136",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 162833,
+      "title": "YGOPro",
+      "original": "YGOPro",
+      "sourceUrl": "https://bgm.tv/subject/162833",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 231517,
+      "title": "和平精英",
+      "original": "和平精英",
+      "sourceUrl": "https://bgm.tv/subject/231517",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 270819,
+      "title": "Chrome恐龙",
+      "original": "Chrome Dino",
+      "sourceUrl": "https://bgm.tv/subject/270819",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 61740,
+      "title": "部落冲突",
+      "original": "Clash of Clans",
+      "sourceUrl": "https://bgm.tv/subject/61740",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 95525,
+      "title": "节奏大师",
+      "original": "节奏大师",
+      "sourceUrl": "https://bgm.tv/subject/95525",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 100663,
+      "title": "保卫萝卜1",
+      "original": "保卫萝卜1",
+      "sourceUrl": "https://bgm.tv/subject/100663",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 228217,
+      "title": "第五人格",
+      "original": "第五人格",
+      "sourceUrl": "https://bgm.tv/subject/228217",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 118430,
+      "title": "王国保卫战：起源",
+      "original": "Kingdom Rush Origins",
+      "sourceUrl": "https://bgm.tv/subject/118430",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 172304,
+      "title": "皇室战争",
+      "original": "Clash Royale",
+      "sourceUrl": "https://bgm.tv/subject/172304",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 190099,
+      "title": "无法触碰的掌心",
+      "original": "囚われのパルマ",
+      "sourceUrl": "https://bgm.tv/subject/190099",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 49796,
+      "title": "极品飞车17：最高通缉",
+      "original": "Need For Speed Most Wanted",
+      "sourceUrl": "https://bgm.tv/subject/49796",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 168075,
+      "title": "黄金矿工",
+      "original": "Gold Miner",
+      "sourceUrl": "https://bgm.tv/subject/168075",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 441435,
+      "title": "苍翼：混沌效应",
+      "original": "苍翼：混沌效应",
+      "sourceUrl": "https://bgm.tv/subject/441435",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 198051,
+      "title": "旁观者",
+      "original": "Beholder",
+      "sourceUrl": "https://bgm.tv/subject/198051",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 145963,
+      "title": "同步音律喵赛克",
+      "original": "同步音律喵赛克",
+      "sourceUrl": "https://bgm.tv/subject/145963",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 63975,
+      "title": "神庙逃亡 2",
+      "original": "Temple Run 2",
+      "sourceUrl": "https://bgm.tv/subject/63975",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 255878,
+      "title": "方块逃脱：悖论",
+      "original": "Cube Escape: Paradox",
+      "sourceUrl": "https://bgm.tv/subject/255878",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 225636,
+      "title": "光·遇",
+      "original": "Sky",
+      "sourceUrl": "https://bgm.tv/subject/225636",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 230968,
+      "title": "旅行青蛙",
+      "original": "旅かえる",
+      "sourceUrl": "https://bgm.tv/subject/230968",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 482102,
+      "title": "三角洲行动",
+      "original": "三角洲行动",
+      "sourceUrl": "https://bgm.tv/subject/482102",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 108111,
+      "title": "暖暖环游世界",
+      "original": "暖暖环游世界",
+      "sourceUrl": "https://bgm.tv/subject/108111",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 112773,
+      "title": "纪念碑谷: 被遗忘的海岸",
+      "original": "Monument Valley: Forgotten Shores",
+      "sourceUrl": "https://bgm.tv/subject/112773",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 218810,
+      "title": "永远的7日之都",
+      "original": "永远的7日之都",
+      "sourceUrl": "https://bgm.tv/subject/218810",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 373708,
+      "title": "魔女之泉R",
+      "original": "마녀의 샘R",
+      "sourceUrl": "https://bgm.tv/subject/373708",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 286485,
+      "title": "梅吉德72",
+      "original": "メギド72",
+      "sourceUrl": "https://bgm.tv/subject/286485",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 217200,
+      "title": "魔女之泉3",
+      "original": "마녀의 샘3",
+      "sourceUrl": "https://bgm.tv/subject/217200",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 146092,
+      "title": "精灵宝可梦 GO",
+      "original": "Pokémon GO",
+      "sourceUrl": "https://bgm.tv/subject/146092",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 56946,
+      "title": "贪吃蛇",
+      "original": "Snake",
+      "sourceUrl": "https://bgm.tv/subject/56946",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 91615,
+      "title": "空房间 2",
+      "original": "The Room Two",
+      "sourceUrl": "https://bgm.tv/subject/91615",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 399708,
+      "title": "边狱公司",
+      "original": "Limbus Company",
+      "sourceUrl": "https://bgm.tv/subject/399708",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 118343,
+      "title": "致命框架",
+      "original": "FRAMED",
+      "sourceUrl": "https://bgm.tv/subject/118343",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 62583,
+      "title": "进化之地",
+      "original": "Evoland",
+      "sourceUrl": "https://bgm.tv/subject/62583",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 103032,
+      "title": "迷你地铁",
+      "original": "Mini Metro",
+      "sourceUrl": "https://bgm.tv/subject/103032",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 306177,
+      "title": "非现实生活",
+      "original": "アンリアルライフ",
+      "sourceUrl": "https://bgm.tv/subject/306177",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 137435,
+      "title": "辐射：避难所",
+      "original": "Fallout Shelter",
+      "sourceUrl": "https://bgm.tv/subject/137435",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 161139,
+      "title": "方块逃脱：四季",
+      "original": "Cube Escape:Seasons",
+      "sourceUrl": "https://bgm.tv/subject/161139",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 101374,
+      "title": "乖离性百万亚瑟王",
+      "original": "乖離性ミリオンアーサー",
+      "sourceUrl": "https://bgm.tv/subject/101374",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 104405,
+      "title": "别踩白块儿",
+      "original": "Piano Tiles",
+      "sourceUrl": "https://bgm.tv/subject/104405",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 183879,
+      "title": "兰空",
+      "original": "VOEZ",
+      "sourceUrl": "https://bgm.tv/subject/183879",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 10343,
+      "title": "jubeat",
+      "original": "jubeat",
+      "sourceUrl": "https://bgm.tv/subject/10343",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 229060,
+      "title": "和Bennett Foddy一起攻克难关",
+      "original": "Getting Over It with Bennett Foddy",
+      "sourceUrl": "https://bgm.tv/subject/229060",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 36953,
+      "title": "愤怒的小鸟 太空版",
+      "original": "Angry Birds Space",
+      "sourceUrl": "https://bgm.tv/subject/36953",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 162428,
+      "title": "游戏王：决斗链接",
+      "original": "遊戯王 デュエルリンクス",
+      "sourceUrl": "https://bgm.tv/subject/162428",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 294629,
+      "title": "轮回的房间",
+      "original": "Samsara Room",
+      "sourceUrl": "https://bgm.tv/subject/294629",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 39383,
+      "title": "优诺",
+      "original": "UNO",
+      "sourceUrl": "https://bgm.tv/subject/39383",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 112623,
+      "title": "空房间 3",
+      "original": "The Room Three",
+      "sourceUrl": "https://bgm.tv/subject/112623",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 127501,
+      "title": "猫咪后院",
+      "original": "ねこあつめ",
+      "sourceUrl": "https://bgm.tv/subject/127501",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 266333,
+      "title": "王国保卫战：复仇",
+      "original": "Kingdom Rush Vengeance",
+      "sourceUrl": "https://bgm.tv/subject/266333",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 161138,
+      "title": "方块逃脱：锈湖",
+      "original": "Cube Escape:The Lake",
+      "sourceUrl": "https://bgm.tv/subject/161138",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 292307,
+      "title": "白门",
+      "original": "The White Door",
+      "sourceUrl": "https://bgm.tv/subject/292307",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 202908,
+      "title": "魔女之泉2",
+      "original": "마녀의 샘2",
+      "sourceUrl": "https://bgm.tv/subject/202908",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 379957,
+      "title": "洛克王国：世界",
+      "original": "洛克王国：世界",
+      "sourceUrl": "https://bgm.tv/subject/379957",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 317548,
+      "title": "四目神-再会-",
+      "original": "四ツ目神 -再会-",
+      "sourceUrl": "https://bgm.tv/subject/317548",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 54879,
+      "title": "滑雪大冒险",
+      "original": "Ski Safari",
+      "sourceUrl": "https://bgm.tv/subject/54879",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 349449,
+      "title": "口袋妖怪 漆黑的魅影",
+      "original": "口袋妖怪 漆黑的魅影",
+      "sourceUrl": "https://bgm.tv/subject/349449",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 154952,
+      "title": "爱丽丝的精神审判",
+      "original": "アリスの精神裁判",
+      "sourceUrl": "https://bgm.tv/subject/154952",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 314212,
+      "title": "Among Us",
+      "original": "Among Us",
+      "sourceUrl": "https://bgm.tv/subject/314212",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 199185,
+      "title": "四目神",
+      "original": "四ツ目神",
+      "sourceUrl": "https://bgm.tv/subject/199185",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 141547,
+      "title": "生命线",
+      "original": "Lifeline",
+      "sourceUrl": "https://bgm.tv/subject/141547",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 169552,
+      "title": "方块逃脱：生日",
+      "original": "Cube Escape: Birthday",
+      "sourceUrl": "https://bgm.tv/subject/169552",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 220875,
+      "title": "天天酷跑",
+      "original": "天天酷跑",
+      "sourceUrl": "https://bgm.tv/subject/220875",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 234420,
+      "title": "跳一跳",
+      "original": "跳一跳",
+      "sourceUrl": "https://bgm.tv/subject/234420",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 332175,
+      "title": "内心往事",
+      "original": "The Past Within",
+      "sourceUrl": "https://bgm.tv/subject/332175",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 327616,
+      "title": "笼中窥梦",
+      "original": "Moncage",
+      "sourceUrl": "https://bgm.tv/subject/327616",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 321413,
+      "title": "三国杀Online",
+      "original": "三国杀Online",
+      "sourceUrl": "https://bgm.tv/subject/321413",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 161141,
+      "title": "方块逃脱：阿尔勒",
+      "original": "Cube Escape:Arles",
+      "sourceUrl": "https://bgm.tv/subject/161141",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 151955,
+      "title": "OPUS：地球计划",
+      "original": "OPUS：地球計畫",
+      "sourceUrl": "https://bgm.tv/subject/151955",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 161140,
+      "title": "方块逃脱：哈维的盒子",
+      "original": "Cube Escape:Harvey's Box",
+      "sourceUrl": "https://bgm.tv/subject/161140",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 146463,
+      "title": "方块逃脱：23号案件",
+      "original": "Cube Escape: Case 23",
+      "sourceUrl": "https://bgm.tv/subject/146463",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 161142,
+      "title": "方块逃脱：磨坊",
+      "original": "Cube Escape: The Mill",
+      "sourceUrl": "https://bgm.tv/subject/161142",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 217590,
+      "title": "方块逃脱：剧院",
+      "original": "Cube escape: Theatre",
+      "sourceUrl": "https://bgm.tv/subject/217590",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 308257,
+      "title": "圣歌德嘉的晚钟",
+      "original": "圣歌德嘉的晚钟",
+      "sourceUrl": "https://bgm.tv/subject/308257",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 310494,
+      "title": "霓虹深渊",
+      "original": "Neon Abyss",
+      "sourceUrl": "https://bgm.tv/subject/310494",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 219268,
+      "title": "方块逃脱：洞穴",
+      "original": "Cube Escape:The Cave",
+      "sourceUrl": "https://bgm.tv/subject/219268",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 224624,
+      "title": "OPUS：灵魂之桥",
+      "original": "OPUS：靈魂之橋",
+      "sourceUrl": "https://bgm.tv/subject/224624",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 269242,
+      "title": "荒野乱斗",
+      "original": "Brawl Stars",
+      "sourceUrl": "https://bgm.tv/subject/269242",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 295081,
+      "title": "魔女之泉4",
+      "original": "마녀의 샘4",
+      "sourceUrl": "https://bgm.tv/subject/295081",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 176295,
+      "title": "Malody",
+      "original": "Malody",
+      "sourceUrl": "https://bgm.tv/subject/176295",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 397705,
+      "title": "燕云十六声",
+      "original": "燕云十六声",
+      "sourceUrl": "https://bgm.tv/subject/397705",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 585838,
+      "title": "小小的身影，重叠的内心",
+      "original": "小小的身影，重叠的内心",
+      "sourceUrl": "https://bgm.tv/subject/585838",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 375866,
+      "title": "鹅鸭杀",
+      "original": "Goose Goose Duck",
+      "sourceUrl": "https://bgm.tv/subject/375866",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 260498,
+      "title": "被囚禁的掌心 Refrain",
+      "original": "囚われのパルマ Refrain",
+      "sourceUrl": "https://bgm.tv/subject/260498",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 290180,
+      "title": "未定事件簿",
+      "original": "未定事件簿",
+      "sourceUrl": "https://bgm.tv/subject/290180",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 113350,
+      "title": "遥远时空中6",
+      "original": "遙かなる時空の中で6",
+      "sourceUrl": "https://bgm.tv/subject/113350",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 119538,
+      "title": "炫光动感",
+      "original": "dynamix",
+      "sourceUrl": "https://bgm.tv/subject/119538",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 220749,
+      "title": "跳舞的线",
+      "original": "Dancing Line",
+      "sourceUrl": "https://bgm.tv/subject/220749",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 9730,
+      "title": "梦幻西游电脑版",
+      "original": "梦幻西游电脑版",
+      "sourceUrl": "https://bgm.tv/subject/9730",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 226234,
+      "title": "Love Live! 学园偶像季：群星闪耀",
+      "original": "ラブライブ！スクールアイドルフェスティバルALL STARS",
+      "sourceUrl": "https://bgm.tv/subject/226234",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 320964,
+      "title": "纪念碑谷3",
+      "original": "Monument Valley 3",
+      "sourceUrl": "https://bgm.tv/subject/320964",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 130240,
+      "title": "会说话的汤姆猫",
+      "original": "Talking Tom Cat",
+      "sourceUrl": "https://bgm.tv/subject/130240",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 76938,
+      "title": "艾诺迪亚4：贝勒塞刺杀者",
+      "original": "Chronicles of Inotia 4: Assassin of Berkel",
+      "sourceUrl": "https://bgm.tv/subject/76938",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 247994,
+      "title": "宝可梦探险寻宝",
+      "original": "ポケモンクエスト",
+      "sourceUrl": "https://bgm.tv/subject/247994",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 178250,
+      "title": "捣蛋猪",
+      "original": "Bad piggies",
+      "sourceUrl": "https://bgm.tv/subject/178250",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 206732,
+      "title": "火焰之纹章 英雄",
+      "original": "ファイアーエムブレム ヒーローズ",
+      "sourceUrl": "https://bgm.tv/subject/206732",
+      "discoveredBy": [
+        "手游"
+      ]
+    },
+    {
+      "id": 229106,
+      "title": "决战！平安京",
+      "original": "决战！平安京",
+      "sourceUrl": "https://bgm.tv/subject/229106",
+      "discoveredBy": [
+        "手游"
+      ]
+    }
+  ]
+}

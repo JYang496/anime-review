@@ -99,11 +99,13 @@
   },
   {
     "id": 343054,
-    "title": "胜利女神：妮姬",
+    "title": "胜利女神：新的希望",
     "type": "射击",
     "aliases": [
       "NIKKE",
-      "妮姬"
+      "妮姬",
+      "胜利女神：妮姬",
+      "新的希望"
     ]
   },
   {
@@ -210,6 +212,140 @@
     "aliases": [
       "云图计划",
       "Neural Cloud"
+    ]
+  },
+  {
+    "id": 503983,
+    "title": "异环",
+    "type": "动作",
+    "aliases": [
+      "Neverness to Everness"
+    ]
+  },
+  {
+    "id": 295308,
+    "title": "炽焰天穹",
+    "type": "回合制",
+    "aliases": [
+      "Heaven Burns Red",
+      "HBR"
+    ]
+  },
+  {
+    "id": 309303,
+    "title": "初音未来：缤纷舞台",
+    "type": "音乐",
+    "aliases": [
+      "世界计划",
+      "PJSK",
+      "Project Sekai"
+    ]
+  },
+  {
+    "id": 314067,
+    "title": "幻塔",
+    "type": "动作",
+    "aliases": [
+      "Tower of Fantasy"
+    ]
+  },
+  {
+    "id": 395872,
+    "title": "交错战线",
+    "type": "回合制",
+    "aliases": [
+      "Cross Core"
+    ]
+  },
+  {
+    "id": 368531,
+    "title": "物华弥新",
+    "type": "策略",
+    "aliases": []
+  },
+  {
+    "id": 388894,
+    "title": "白荆回廊",
+    "type": "策略",
+    "aliases": []
+  },
+  {
+    "id": 347210,
+    "title": "灵魂潮汐",
+    "type": "回合制",
+    "aliases": []
+  },
+  {
+    "id": 460248,
+    "title": "二重螺旋",
+    "type": "动作",
+    "aliases": [
+      "Duet Night Abyss"
+    ]
+  },
+  {
+    "id": 424872,
+    "title": "女神异闻录：夜幕魅影",
+    "type": "回合制",
+    "aliases": [
+      "P5X"
+    ]
+  },
+  {
+    "id": 266863,
+    "title": "第七史诗",
+    "type": "回合制",
+    "aliases": [
+      "Epic Seven",
+      "E7"
+    ]
+  },
+  {
+    "id": 409324,
+    "title": "无限暖暖",
+    "type": "换装",
+    "aliases": [
+      "Infinity Nikki"
+    ]
+  },
+  {
+    "id": 431879,
+    "title": "恋与深空",
+    "type": "恋爱",
+    "aliases": [
+      "Love and Deepspace"
+    ]
+  },
+  {
+    "id": 342593,
+    "title": "铃兰之剑：为这和平的世界",
+    "type": "策略",
+    "aliases": [
+      "铃兰之剑"
+    ]
+  },
+  {
+    "id": 332512,
+    "title": "坎特伯雷公主与骑士唤醒冠军之剑的奇幻冒险",
+    "type": "动作",
+    "aliases": [
+      "坎公骑冠剑",
+      "坎公",
+      "Guardian Tales"
+    ]
+  },
+  {
+    "id": 227547,
+    "title": "恋与制作人",
+    "type": "恋爱",
+    "aliases": []
+  },
+  {
+    "id": 307375,
+    "title": "天地劫：幽城再临",
+    "type": "策略",
+    "aliases": [
+      "天地劫"
     ]
   }
 ]

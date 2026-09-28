@@ -1,0 +1,22 @@
+name: Discover game candidates
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run discover:games
+      - run: npm run review:games
+      - uses: actions/upload-artifact@v4
+        with:
+          name: game-candidates-for-review
+          path: |
+            scripts/game-candidates.json
+            docs/game-candidate-review.md

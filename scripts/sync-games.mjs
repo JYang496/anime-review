@@ -1,6 +1,11 @@
 import {readFile,writeFile,mkdir,rename,access} from 'node:fs/promises';
+import {approvedForCatalog} from './game-policy.mjs';
 
 const seeds=JSON.parse(await readFile(new URL('./game-seeds.json',import.meta.url),'utf8'));
+const reviews=JSON.parse(await readFile(new URL('./game-reviews.json',import.meta.url),'utf8'));
+if(new Set(seeds.map(s=>s.id)).size!==seeds.length)throw new Error('Duplicate seed IDs');
+if(new Set(reviews.map(r=>r.id)).size!==reviews.length)throw new Error('Duplicate review IDs');
+const reviewById=new Map(reviews.map(r=>[r.id,r]));
 const headers={'User-Agent':'AnimeReview/1.0 (https://github.com/JYang496/anime-review)'};
 const today=new Date().toISOString().slice(0,10);
 const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
@@ -14,6 +19,8 @@ await mkdir('dist/covers/games',{recursive:true});
 await mkdir('dist/data',{recursive:true});
 const items=[];
 for(const seed of seeds){
+  const review=reviewById.get(seed.id);
+  if(!approvedForCatalog(review,today)){console.log(`Not approved for CN catalogue: ${seed.title}`);continue;}
   const data=await (await request(`https://api.bgm.tv/v0/subjects/${seed.id}`)).json();
   if(data.type!==4||data.nsfw)throw new Error(`Invalid game: ${seed.id}`);
   // Future releases should not be offered as publicly playable games.
@@ -35,12 +42,14 @@ for(const seed of seeds){
   const aliases=(data.infobox||[]).filter(x=>x.key==='别名').flatMap(x=>Array.isArray(x.value)?x.value.map(v=>v.v):[x.value]).filter(x=>typeof x==='string');
   items.push({id:`bgm-${seed.id}`,title:seed.title,original:data.name||seed.title,
     aliases:[...new Set([...seed.aliases,...aliases,data.name_cn||seed.title])],type:seed.type,cover,
-    sourceUrl:`https://bgm.tv/subject/${seed.id}`,coverSource:image});
+    sourceUrl:`https://bgm.tv/subject/${seed.id}`,coverSource:image,
+    region:'CN',serviceStatus:review.serviceStatus,reviewedAt:review.reviewedAt,
+    serviceNote:review.displayNote||'',serviceSources:review.evidence.map(s=>s.url)});
   console.log(`Synced ${seed.title}`);
   await delay(350);
 }
 if(!items.length)throw new Error('Empty game catalogue; preserving previous data');
-const catalog={schemaVersion:1,updatedAt:today,source:'Bangumi',curated:true,items};
+const catalog={schemaVersion:2,updatedAt:today,source:'Bangumi',curated:true,scope:'cn-live',items};
 await writeFile('dist/data/games.json.tmp',JSON.stringify(catalog));
 await rename('dist/data/games.json.tmp','dist/data/games.json');
 console.log(`Saved ${items.length} games.`);

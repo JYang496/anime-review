@@ -7,8 +7,10 @@
     "dev": "node scripts/serve.mjs",
     "sync": "node scripts/sync-catalog.mjs",
     "test": "node --test",
-    "check": "node --check dist/app.js && node --check dist/poster.js && node --check dist/modes.js && node --check scripts/sync-games.mjs && node --test",
-    "sync:games": "node scripts/sync-games.mjs"
+    "check": "node --check dist/app.js && node --check dist/poster.js && node --check dist/modes.js && node --check scripts/sync-games.mjs && node --check scripts/discover-games.mjs && node --check scripts/game-policy.mjs && node --check scripts/report-games.mjs && node --test",
+    "sync:games": "node scripts/sync-games.mjs",
+    "discover:games": "node scripts/discover-games.mjs",
+    "review:games": "node scripts/report-games.mjs"
   },
   "engines": {
     "node": ">=22"

@@ -1,0 +1,597 @@
+[
+  {
+    "id": 101819,
+    "title": "崩坏学园2",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/7158",
+        "note": "国服官方下载页，2026-08-12更新。"
+      }
+    ]
+  },
+  {
+    "id": 109378,
+    "title": "命运-冠位指定",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/12982/topic?type=official",
+        "note": "国服官方2026-09-24至10-15游戏内活动。"
+      }
+    ]
+  },
+  {
+    "id": 117903,
+    "title": "战舰少女R",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/moment/844543087995783158",
+        "note": "官方2026-09-04不停机更新与秋日活动。"
+      }
+    ]
+  },
+  {
+    "id": 172168,
+    "title": "崩坏3",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/10056",
+        "note": "国服下载页9.0版本，2026-09-04更新。"
+      }
+    ]
+  },
+  {
+    "id": 192010,
+    "title": "阴阳师",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/12492/topic?type=official",
+        "note": "国服官方2026-09十周年游戏内活动公告。"
+      }
+    ]
+  },
+  {
+    "id": 208559,
+    "title": "碧蓝航线",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/31597/topic",
+        "note": "官方9月24日国服全港区在线修复公告。"
+      }
+    ]
+  },
+  {
+    "id": 219588,
+    "title": "公主连结 Re:Dive",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/139421/topic?type=official",
+        "note": "国服官方2026年活动公告及国服下载入口。"
+      }
+    ]
+  },
+  {
+    "id": 225878,
+    "title": "明日方舟",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/moment/849035800371790128",
+        "note": "官方2026-09-19国庆游戏时间公告，国服仍提供服务。"
+      }
+    ]
+  },
+  {
+    "id": 227547,
+    "title": "恋与制作人",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/55307/topic?type=official",
+        "note": "国服官方2026中秋游戏内福利。"
+      }
+    ]
+  },
+  {
+    "id": 266863,
+    "title": "第七史诗",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/262162/topic?group_label_id=706044&type=group_label",
+        "note": "国服官方2026-09-24不停机更新。"
+      }
+    ]
+  },
+  {
+    "id": 284157,
+    "title": "原神",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/168332",
+        "note": "国服下载页，7.0版本于2026-09-01更新。"
+      }
+    ]
+  },
+  {
+    "id": 293554,
+    "title": "战双帕弥什",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://pns.kurogames.com/",
+        "note": "官网2026-09-22新版本更新；九游渠道停运不等于国服停运。"
+      }
+    ]
+  },
+  {
+    "id": 295308,
+    "title": "炽焰天穹",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/moment/846681573666326273",
+        "note": "国服官方2026-09-09维护更新。"
+      }
+    ]
+  },
+  {
+    "id": 300648,
+    "title": "蔚蓝档案",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/316964/topic?page=2&type=official",
+        "note": "国服官方2026-09活动及联动公告。"
+      }
+    ]
+  },
+  {
+    "id": 306788,
+    "title": "少女前线2：追放",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/190930/topic?type=official",
+        "note": "国服官方2026-09版本活动与更新公告。"
+      }
+    ]
+  },
+  {
+    "id": 306789,
+    "title": "少女前线：云图计划",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/190929/topic?type=official",
+        "note": "国服官方2026年公告，五周年期间继续运营。"
+      }
+    ]
+  },
+  {
+    "id": 307375,
+    "title": "天地劫：幽城再临",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/forum/g230136?type=official",
+        "note": "国服官方2026-09-23资料片维护更新。"
+      }
+    ]
+  },
+  {
+    "id": 309303,
+    "title": "初音未来：缤纷舞台",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/223265/topic?group_label_id=1940343&type=group_label",
+        "note": "国服官方2026-09-27版本活动，非日服目录。"
+      }
+    ]
+  },
+  {
+    "id": 314067,
+    "title": "幻塔",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/192675/topic?hreflang=en_US&type=official",
+        "note": "国服6.4正式服2026-09-16更新。"
+      }
+    ]
+  },
+  {
+    "id": 332512,
+    "title": "坎特伯雷公主与骑士唤醒冠军之剑的奇幻冒险",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/149161/topic?type=official",
+        "note": "国服官方2026-09-10换包更新。"
+      }
+    ]
+  },
+  {
+    "id": 342593,
+    "title": "铃兰之剑：为这和平的世界",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/209866/topic?page=2&type=official",
+        "note": "国服官方2026-09-10维护更新。"
+      }
+    ]
+  },
+  {
+    "id": 343054,
+    "title": "胜利女神：新的希望",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/737341",
+        "note": "国服名称胜利女神：新的希望，2026-09-10版本更新。"
+      }
+    ]
+  },
+  {
+    "id": 347210,
+    "title": "灵魂潮汐",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/171371/topic?type=official",
+        "note": "国服官方2026-08更新及09月活动。"
+      }
+    ]
+  },
+  {
+    "id": 350121,
+    "title": "无期迷途",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/198294/topic?group_label_id=711533&type=group_label",
+        "note": "国服官方2026-08、09游戏维护更新公告。"
+      }
+    ]
+  },
+  {
+    "id": 360097,
+    "title": "崩坏：星穹铁道",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/224267/topic?page=2&type=official",
+        "note": "国服官方2026-09活动公告。"
+      }
+    ]
+  },
+  {
+    "id": 365720,
+    "title": "重返未来：1999",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://re.bluepoch.com/",
+        "note": "国服官网4.0版本已于2026-09-24开启。"
+      }
+    ]
+  },
+  {
+    "id": 368531,
+    "title": "物华弥新",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/190417/topic?type=official",
+        "note": "国服2026-09-24的2.5周年游戏内活动。"
+      }
+    ]
+  },
+  {
+    "id": 374638,
+    "title": "明日方舟：终末地",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/232326/topic?type=official",
+        "note": "国服官方2026-09-24游戏内引入活动公告。"
+      }
+    ]
+  },
+  {
+    "id": 375295,
+    "title": "深空之眼",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "maintenance",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/moment/824233994076816681?group_id=295957",
+        "note": "2026-07-23停止内容更新但服务器继续运行，明确仍可登录；不是停服。"
+      }
+    ],
+    "displayNote": "陪伴服 · 停更仍可登录"
+  },
+  {
+    "id": 380974,
+    "title": "绝区零",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/234493",
+        "note": "国服下载页3.1版本，2026-09-08更新。"
+      }
+    ]
+  },
+  {
+    "id": 385208,
+    "title": "鸣潮",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/234280/topic?page=5&type=official",
+        "note": "国服官方2026-09-10至09-29游戏内活动。"
+      }
+    ]
+  },
+  {
+    "id": 388894,
+    "title": "白荆回廊",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "maintenance",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/moment/760448420056925906",
+        "note": "停止新内容周期更新，保留游戏服务；另有2026-09-10维护公告。"
+      },
+      {
+        "url": "https://www.taptap.cn/app/220861/topic?group_label_id=1716821",
+        "note": "官方2026-09-10游戏服务器维护公告。"
+      }
+    ],
+    "displayNote": "停更仍可登录"
+  },
+  {
+    "id": 395872,
+    "title": "交错战线",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/forum/g211959?group_label_id=2405071&type=group_label",
+        "note": "2026-09-23暂关下载入口但仍发放登录补偿，服务器未关闭。"
+      }
+    ],
+    "displayNote": "下载暂关 · 服务器开放"
+  },
+  {
+    "id": 409324,
+    "title": "无限暖暖",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.nuanpaper.com/home",
+        "note": "国服2.10版本于2026-09-24更新。"
+      }
+    ]
+  },
+  {
+    "id": 424872,
+    "title": "女神异闻录：夜幕魅影",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/moment/826497030049238630",
+        "note": "国服官方5.2.2版本于2026-07-16更新。"
+      }
+    ]
+  },
+  {
+    "id": 431879,
+    "title": "恋与深空",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/201633/topic?page=2&type=official",
+        "note": "国服官方2026年活动与更新。"
+      }
+    ]
+  },
+  {
+    "id": 460248,
+    "title": "二重螺旋",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/forum/g668687?group_label_id=2122996",
+        "note": "国服2026-09-17至09-30游戏内活动。"
+      }
+    ]
+  },
+  {
+    "id": 503983,
+    "title": "异环",
+    "decision": "approved",
+    "region": "CN",
+    "serviceStatus": "active",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/714119/topic?type=official",
+        "note": "国服1.4版本2026-09-24上线。"
+      }
+    ]
+  },
+  {
+    "id": 315061,
+    "title": "白夜极光",
+    "decision": "rejected",
+    "region": "CN",
+    "serviceStatus": "closed",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/226247/topic?type=official",
+        "note": "官方公告：2025-01-24中国大陆停止运营。"
+      }
+    ]
+  },
+  {
+    "id": 136802,
+    "title": "少女前线",
+    "decision": "rejected",
+    "region": "CN",
+    "serviceStatus": "closed",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/moment/600992328714289767",
+        "note": "国服2024-12-31停止游戏服务；海外及继承版不作为国服运营依据。"
+      }
+    ]
+  },
+  {
+    "id": 378389,
+    "title": "尘白禁区",
+    "decision": "pending",
+    "region": "CN",
+    "serviceStatus": "unknown",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/222089/topic?group_label_id=526123&type=group_label",
+        "note": "当前检索到的官方公告不足以确认最新运营安排；社区停运说法未经官方原文核验，暂不收录且不定性为已停服。"
+      }
+    ]
+  },
+  {
+    "id": 462994,
+    "title": "望月",
+    "decision": "pending",
+    "region": "CN",
+    "serviceStatus": "unreleased",
+    "reviewedAt": "2026-09-27",
+    "evidence": [
+      {
+        "url": "https://www.taptap.cn/app/386208/topic?group_label_id=1443433&type=group_label",
+        "note": "官方页面仍为预约/测试消息，缺少已正式上线依据。"
+      }
+    ]
+  }
+]
