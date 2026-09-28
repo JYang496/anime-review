@@ -86,3 +86,13 @@ main{padding-bottom:30px}
  .collection-actions p{font-size:10px}
  .anime-card,#catalog-title{scroll-margin-top:calc(var(--filter-height) + 12px)}
 }
+
+/* Shared navigation and game catalogue. */
+.mode-switch{display:flex;gap:3px;padding:3px;border-radius:9px;background:#f0f2f8;flex-shrink:0}
+.mode-switch a{padding:5px 13px;border-radius:6px;font-size:13px;color:#737b8e}
+.mode-switch a[aria-current=page]{background:var(--blue);color:#fff;box-shadow:0 2px 5px #425ce822}
+.games-mode .cover,.games-mode .editor-card .cover{aspect-ratio:1}
+.games-mode .cover img{object-fit:contain;background:#e4e8f2}
+.games-mode .mini-covers img,.games-mode .mini-covers button{height:42px;object-fit:contain}
+.games-mode .sidebar .search{max-width:460px;margin-left:0}
+@media(max-width:760px){.fixed-heading{flex-wrap:wrap;gap:8px}.fixed-heading h1{font-size:13px;padding-left:8px}.mode-switch a{padding:5px 10px;font-size:12px}.games-mode .sidebar .search{max-width:none}.games-mode .anime-meta{font-size:10px}}

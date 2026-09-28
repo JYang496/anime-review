@@ -1,0 +1,215 @@
+[
+  {
+    "id": 284157,
+    "title": "原神",
+    "type": "动作",
+    "aliases": [
+      "Genshin Impact"
+    ]
+  },
+  {
+    "id": 360097,
+    "title": "崩坏：星穹铁道",
+    "type": "回合制",
+    "aliases": [
+      "星铁",
+      "崩铁",
+      "Honkai Star Rail"
+    ]
+  },
+  {
+    "id": 225878,
+    "title": "明日方舟",
+    "type": "塔防",
+    "aliases": [
+      "舟",
+      "Arknights"
+    ]
+  },
+  {
+    "id": 385208,
+    "title": "鸣潮",
+    "type": "动作",
+    "aliases": [
+      "Wuthering Waves"
+    ]
+  },
+  {
+    "id": 380974,
+    "title": "绝区零",
+    "type": "动作",
+    "aliases": [
+      "ZZZ",
+      "Zenless Zone Zero"
+    ]
+  },
+  {
+    "id": 172168,
+    "title": "崩坏3",
+    "type": "动作",
+    "aliases": [
+      "崩坏三",
+      "Honkai Impact 3rd"
+    ]
+  },
+  {
+    "id": 101819,
+    "title": "崩坏学园2",
+    "type": "射击",
+    "aliases": [
+      "崩二"
+    ]
+  },
+  {
+    "id": 208559,
+    "title": "碧蓝航线",
+    "type": "射击",
+    "aliases": [
+      "舰B",
+      "Azur Lane"
+    ]
+  },
+  {
+    "id": 136802,
+    "title": "少女前线",
+    "type": "策略",
+    "aliases": [
+      "少前",
+      "Girls' Frontline"
+    ]
+  },
+  {
+    "id": 293554,
+    "title": "战双帕弥什",
+    "type": "动作",
+    "aliases": [
+      "战双",
+      "PGR"
+    ]
+  },
+  {
+    "id": 300648,
+    "title": "蔚蓝档案",
+    "type": "策略",
+    "aliases": [
+      "碧蓝档案",
+      "BA",
+      "Blue Archive"
+    ]
+  },
+  {
+    "id": 343054,
+    "title": "胜利女神：妮姬",
+    "type": "射击",
+    "aliases": [
+      "NIKKE",
+      "妮姬"
+    ]
+  },
+  {
+    "id": 365720,
+    "title": "重返未来：1999",
+    "type": "回合制",
+    "aliases": [
+      "重返未来1999",
+      "Reverse 1999"
+    ]
+  },
+  {
+    "id": 350121,
+    "title": "无期迷途",
+    "type": "塔防",
+    "aliases": [
+      "Path to Nowhere"
+    ]
+  },
+  {
+    "id": 375295,
+    "title": "深空之眼",
+    "type": "动作",
+    "aliases": [
+      "Aether Gazer"
+    ]
+  },
+  {
+    "id": 378389,
+    "title": "尘白禁区",
+    "type": "射击",
+    "aliases": [
+      "尘白",
+      "Snowbreak"
+    ]
+  },
+  {
+    "id": 306788,
+    "title": "少女前线2：追放",
+    "type": "策略",
+    "aliases": [
+      "少前2",
+      "追放"
+    ]
+  },
+  {
+    "id": 374638,
+    "title": "明日方舟：终末地",
+    "type": "动作",
+    "aliases": [
+      "终末地",
+      "Arknights Endfield"
+    ]
+  },
+  {
+    "id": 192010,
+    "title": "阴阳师",
+    "type": "回合制",
+    "aliases": [
+      "Onmyoji"
+    ]
+  },
+  {
+    "id": 219588,
+    "title": "公主连结 Re:Dive",
+    "type": "策略",
+    "aliases": [
+      "公主连接",
+      "公主连结",
+      "PCR"
+    ]
+  },
+  {
+    "id": 109378,
+    "title": "命运-冠位指定",
+    "type": "回合制",
+    "aliases": [
+      "FGO",
+      "命运冠位指定",
+      "Fate Grand Order"
+    ]
+  },
+  {
+    "id": 117903,
+    "title": "战舰少女R",
+    "type": "策略",
+    "aliases": [
+      "舰R",
+      "战舰少女"
+    ]
+  },
+  {
+    "id": 315061,
+    "title": "白夜极光",
+    "type": "策略",
+    "aliases": [
+      "Alchemy Stars"
+    ]
+  },
+  {
+    "id": 306789,
+    "title": "少女前线：云图计划",
+    "type": "策略",
+    "aliases": [
+      "云图计划",
+      "Neural Cloud"
+    ]
+  }
+]

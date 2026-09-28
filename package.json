@@ -1,5 +1,16 @@
 {
-  "name": "anime-review", "version": "1.0.0", "private": true, "type": "module",
-  "scripts": { "dev": "node scripts/serve.mjs", "sync": "node scripts/sync-catalog.mjs", "test": "node --test", "check": "node --check dist/app.js && node --check dist/poster.js && node --test" },
-  "engines": { "node": ">=22" }
+  "name": "anime-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "sync": "node scripts/sync-catalog.mjs",
+    "test": "node --test",
+    "check": "node --check dist/app.js && node --check dist/poster.js && node --check dist/modes.js && node --check scripts/sync-games.mjs && node --test",
+    "sync:games": "node scripts/sync-games.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
 }
