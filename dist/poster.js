@@ -26,9 +26,9 @@ export async function renderPosters(items,nickname,onProgress=()=>{}) {
   for(let p=0;p<pages.length;p++) {
     onProgress(p+1,pages.length);
     const page=pages[p];const groups=[...new Set(page.map(a=>a.year))].map(year=>({year,items:page.filter(a=>a.year===year)}));
-    const columns=Math.min(2,Math.max(...groups.map(g=>g.items.length)));
+    const columns=Math.min(4,Math.max(...groups.map(g=>g.items.length)));
     const padding=28,gap=20;
-    const width=720;
+    const width=1080;
     const coverWidth=(width-padding*2-(columns-1)*gap)/columns;
     const coverHeight=Math.round(coverWidth*1.4),rowHeight=coverHeight+80;
     const headerHeight=190,groupHeading=54,footerHeight=70;
