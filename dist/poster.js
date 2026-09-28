@@ -26,12 +26,12 @@ export async function renderPosters(items,nickname,onProgress=()=>{}) {
   for(let p=0;p<pages.length;p++) {
     onProgress(p+1,pages.length);
     const page=pages[p];const groups=[...new Set(page.map(a=>a.year))].map(year=>({year,items:page.filter(a=>a.year===year)}));
-    const columns=Math.min(6,Math.max(...groups.map(g=>g.items.length)));
-    const padding=32,gap=12;
-    const width=Math.max(480,padding*2+columns*179+(columns-1)*gap);
+    const columns=Math.min(2,Math.max(...groups.map(g=>g.items.length)));
+    const padding=28,gap=20;
+    const width=720;
     const coverWidth=(width-padding*2-(columns-1)*gap)/columns;
-    const coverHeight=Math.round(coverWidth*1.25),rowHeight=coverHeight+58;
-    const headerHeight=146,groupHeading=42,footerHeight=60;
+    const coverHeight=Math.round(coverWidth*1.4),rowHeight=coverHeight+80;
+    const headerHeight=190,groupHeading=54,footerHeight=70;
     const height=headerHeight+groups.reduce((h,g)=>h+groupHeading+Math.ceil(g.items.length/columns)*rowHeight,0)+footerHeight;
     const canvas=document.createElement('canvas');canvas.width=width;canvas.height=height;
     const ctx=canvas.getContext('2d');
@@ -39,30 +39,30 @@ export async function renderPosters(items,nickname,onProgress=()=>{}) {
     ctx.fillStyle='#f5f6fb';ctx.fillRect(0,0,width,height);
     ctx.fillStyle='#425ce8';ctx.fillRect(0,0,width,6);
     const title=`${nickname.trim()||'我'}的动画观看清单`;
-    let titleSize=36;
-    do {ctx.font=`bold ${titleSize}px "Noto Sans SC", sans-serif`;if(ctx.measureText(title).width<=width-padding*2||titleSize<=24)break;titleSize-=2;}while(true);
+    let titleSize=42;
+    do {ctx.font=`bold ${titleSize}px "Noto Sans SC", sans-serif`;if(ctx.measureText(title).width<=width-padding*2||titleSize<=28)break;titleSize-=2;}while(true);
     const titleLines=ctx.measureText(title).width>width-padding*2?2:1;
-    wrap(ctx,title,padding,54,width-padding*2,36,2);
-    ctx.fillStyle='#747e93';ctx.font='18px "Noto Sans SC", sans-serif';ctx.fillText(`收录 ${range} 年作品 · 共 ${items.length} 部`,padding,54+titleLines*36);
+    wrap(ctx,title,padding,64,width-padding*2,46,2);
+    ctx.fillStyle='#747e93';ctx.font='26px "Noto Sans SC", sans-serif';ctx.fillText(`收录 ${range} 年作品 · 共 ${items.length} 部`,padding,64+titleLines*46);
     // Short titles reclaim the unused second line instead of leaving a blank band.
-    const headerOffset=titleLines===1?36:0;
+    const headerOffset=titleLines===1?46:0;
     let y=headerHeight-headerOffset;
     for(const group of groups) {
-      ctx.fillStyle='#425ce8';ctx.font='bold 24px "Noto Sans SC", sans-serif';ctx.fillText(`${group.year}`,padding,y+27);
-      ctx.fillStyle='#959db0';ctx.font='16px sans-serif';ctx.fillText(`${group.items.length} 部`,padding+78,y+25);y+=groupHeading;
+      ctx.fillStyle='#425ce8';ctx.font='bold 30px "Noto Sans SC", sans-serif';ctx.fillText(`${group.year}`,padding,y+34);
+      ctx.fillStyle='#959db0';ctx.font='24px sans-serif';ctx.fillText(`${group.items.length} 部`,padding+100,y+32);y+=groupHeading;
       const images=await Promise.all(group.items.map(a=>loadImage(a.cover)));
       group.items.forEach((a,i)=>{
         const x=padding+(i%columns)*(coverWidth+gap),top=y+Math.floor(i/columns)*rowHeight;
         ctx.fillStyle='#e1e6f2';ctx.fillRect(x,top,coverWidth,coverHeight);
         if(images[i])drawCover(ctx,images[i],x,top,coverWidth,coverHeight);
-        else {ctx.fillStyle='#7382a2';ctx.font='22px "Noto Sans SC", sans-serif';wrap(ctx,a.title,x+12,top+coverHeight/3,coverWidth-24,32,3);}
-        ctx.fillStyle='#303849';ctx.font='500 18px "Noto Sans SC", sans-serif';wrap(ctx,a.title,x,top+coverHeight+24,coverWidth,24,2);
+        else {ctx.fillStyle='#7382a2';ctx.font='28px "Noto Sans SC", sans-serif';wrap(ctx,a.title,x+12,top+coverHeight/3,coverWidth-24,38,3);}
+        ctx.fillStyle='#303849';ctx.font='500 26px "Noto Sans SC", sans-serif';wrap(ctx,a.title,x,top+coverHeight+32,coverWidth,32,2);
       });
       y+=Math.ceil(group.items.length/columns)*rowHeight;
     }
     ctx.strokeStyle='#dce1ed';ctx.beginPath();ctx.moveTo(padding,y+8);ctx.lineTo(width-padding,y+8);ctx.stroke();
-    ctx.fillStyle='#8992a5';ctx.font='15px "Noto Sans SC", sans-serif';ctx.fillText('资料来源 Bangumi',padding,y+37);
-    ctx.textAlign='right';ctx.fillText(`${p+1} / ${pages.length}`,width-padding,y+37);
+    ctx.fillStyle='#8992a5';ctx.font='24px "Noto Sans SC", sans-serif';ctx.fillText('资料来源 Bangumi',padding,y+44);
+    ctx.textAlign='right';ctx.fillText(`${p+1} / ${pages.length}`,width-padding,y+44);
     const output=document.createElement('canvas');output.width=width;output.height=height-headerOffset;
     output.getContext('2d').drawImage(canvas,0,0);
     const blob=await new Promise(resolve=>output.toBlob(resolve,'image/png'));
