@@ -53,7 +53,7 @@ function render(){
   filtered.slice(0,limit).forEach(a=>{
     const b=el('button','anime-card');b.dataset.id=a.id;b.setAttribute('aria-pressed',selected.has(a.id));b.setAttribute('aria-label',`${a.title}，${selected.has(a.id)?`已${mode.verb}，点击取消`:`标记为${mode.verb}`}`);
     const cover=el('div','cover');cover.append(a.cover?coverImage(a):el('span','fallback',a.title),el('span','check','✓'),el('span','type-badge',a.type));
-    const meta=el('div','anime-meta');meta.append(el('span','',isGames?(a.serviceNote||'国服 · 点击标记玩过'):`${a.year} · ${seasons[a.quarter]}`),el('span','score',!isGames&&a.score?`★ ${a.score.toFixed(1)}`:''));
+    const meta=el('div','anime-meta');meta.append(el('span','',isGames?(a.serviceNote||'点击标记玩过'):`${a.year} · ${seasons[a.quarter]}`),el('span','score',!isGames&&a.score?`★ ${a.score.toFixed(1)}`:''));
     b.append(cover,el('span','anime-title',a.title),meta);b.onclick=()=>toggle(a.id);fragment.append(b);
   });grid.replaceChildren(fragment);
   $('#catalog-status').hidden=!!filtered.length;$('#catalog-status').textContent=$('#selected-only').checked?`这里还没有符合条件的已选${mode.noun}。试试清除搜索或筛选。`:`没有找到符合条件的${mode.noun}，试试其他名字或筛选条件。`;
@@ -129,7 +129,7 @@ function configureMode(){
     $('#search').placeholder='搜索游戏名 / 简称';
     $('#sort').replaceChildren(new Option('目录顺序','catalog'),new Option('名称顺序','title'));
     $('#type').replaceChildren(new Option('全部类型','all'));
-    $('.catalog-footer p').textContent='仅收录已审核、服务器仍开放的国服二游；不含仅海外服、已停服及未上线作品。停更仍可登录的作品另行标注，运营情况以官方公告为准。封面版权归原权利人所有。';
+    $('.catalog-footer p').textContent='收录 Bangumi「二次元」标签游戏及原有审核目录，包含单机、海外服、停服与未上线作品；标签不代表国服运营状态。封面版权归原权利人所有。';
   }
 }
 configureMode();
